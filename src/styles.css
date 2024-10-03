@@ -8,7 +8,7 @@
 /* Typography */
 body {
   font-family: 'DM Sans', sans-serif;
-  color: #fff;
+  color: #ffffff;
   background-color: #ffffff;
 }
 
@@ -38,6 +38,13 @@ h3 {
   display: inline-block;
   font-size: 16px;
   border-radius: 16px;
+  transition: 0.3s;
+}
+
+.primary-button:hover {
+  background-color:#EE597B;
+  transition: 0.3s;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 /* Header Styles */
@@ -63,6 +70,26 @@ h3 {
   padding: 16px 0;
 }
 
+.description {
+  background-image: url("../public/images/home1.png");
+  background-position: bottom left;
+  background-size: 50% auto;
+  background-repeat: no-repeat;
+}
+
+.description-text {
+  position: relative;
+  width: 40%;
+  text-align: left;
+  color: #343A3F;
+  left: 55%;
+  top: 40%;
+  transform: translateY(-40%, -55%);
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 16px 0;
+}
+
 .s-space{
   height: 16px;
 }
@@ -73,6 +100,10 @@ h3 {
 
 .l-space{
   height: 40px;
+}
+
+.xl-space{
+  height: 96px;
 }
 
 .search-input {
