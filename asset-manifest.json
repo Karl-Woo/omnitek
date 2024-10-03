@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/omnitek/static/css/main.aa93283f.css",
-    "main.js": "/omnitek/static/js/main.e281b34d.js",
+    "main.css": "/omnitek/static/css/main.223c9233.css",
+    "main.js": "/omnitek/static/js/main.d083330c.js",
     "static/js/453.62c08d9b.chunk.js": "/omnitek/static/js/453.62c08d9b.chunk.js",
     "static/media/logo.png": "/omnitek/static/media/logo.1e409e588876b613fe8c.png",
+    "static/media/home1.png": "/omnitek/static/media/home1.0ea07a2922bfb254f716.png",
     "index.html": "/omnitek/index.html",
-    "main.aa93283f.css.map": "/omnitek/static/css/main.aa93283f.css.map",
-    "main.e281b34d.js.map": "/omnitek/static/js/main.e281b34d.js.map",
+    "main.223c9233.css.map": "/omnitek/static/css/main.223c9233.css.map",
+    "main.d083330c.js.map": "/omnitek/static/js/main.d083330c.js.map",
     "453.62c08d9b.chunk.js.map": "/omnitek/static/js/453.62c08d9b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa93283f.css",
-    "static/js/main.e281b34d.js"
+    "static/css/main.223c9233.css",
+    "static/js/main.d083330c.js"
   ]
 }
