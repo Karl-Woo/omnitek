@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.03cb8ea8.css",
-    "main.js": "/static/js/main.0a97197c.js",
-    "static/js/453.62c08d9b.chunk.js": "/static/js/453.62c08d9b.chunk.js",
-    "static/media/logo.png": "/static/media/logo.1e409e588876b613fe8c.png",
-    "index.html": "/index.html",
-    "main.03cb8ea8.css.map": "/static/css/main.03cb8ea8.css.map",
-    "main.0a97197c.js.map": "/static/js/main.0a97197c.js.map",
-    "453.62c08d9b.chunk.js.map": "/static/js/453.62c08d9b.chunk.js.map"
+    "main.css": "/omnitek/static/css/main.aa93283f.css",
+    "main.js": "/omnitek/static/js/main.e281b34d.js",
+    "static/js/453.62c08d9b.chunk.js": "/omnitek/static/js/453.62c08d9b.chunk.js",
+    "static/media/logo.png": "/omnitek/static/media/logo.1e409e588876b613fe8c.png",
+    "index.html": "/omnitek/index.html",
+    "main.aa93283f.css.map": "/omnitek/static/css/main.aa93283f.css.map",
+    "main.e281b34d.js.map": "/omnitek/static/js/main.e281b34d.js.map",
+    "453.62c08d9b.chunk.js.map": "/omnitek/static/js/453.62c08d9b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.03cb8ea8.css",
-    "static/js/main.0a97197c.js"
+    "static/css/main.aa93283f.css",
+    "static/js/main.e281b34d.js"
   ]
 }
