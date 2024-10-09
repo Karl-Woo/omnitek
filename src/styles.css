@@ -90,6 +90,35 @@ h3 {
   padding: 16px 0;
 }
 
+.solution-content{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.solution-item {
+  display: flex; 
+  flex-flow: column;
+  color: #343A3F;
+  background-color: #F4F4F4;
+  border-radius: 48px;
+  width: 45%;
+}
+.solution-item > img {
+  order: -1;  
+  align-self: center; 
+}
+
+.solution-text {
+  position: relative;
+  text-align: center;
+  color: #343A3F;
+  top: 40%;
+  transform: translateY(-40%, 0%);
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 16px 0;
+}
+
 .s-space{
   height: 16px;
 }
