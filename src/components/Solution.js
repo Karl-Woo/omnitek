@@ -21,7 +21,22 @@ export default function Solution(){
                 <div class="m-space"></div>
                 <h3>Tailored cable solutions for precision, performance, and innovation across industries.</h3>
                 <div class="m-space"></div>
-                <div>{solutionitem.length}</div>           
+                <div className='solution-content'>
+                    <div class="m-space"></div>
+                    {
+                        solutionitem.map(item => (
+                            <div key={item.id} className="solution-item">
+                                    <div class="m-space"></div>
+                                    <img src={`images/${item.image}`} alt={item.title}/>
+                                    <div>
+                                        <s1>{item.title}</s1>
+                                        <p>{item.content}</p>
+                                    </div>
+                                    <div class="m-space"></div>
+                            </div>
+                        ))
+                    }   
+                </div>                      
             </div>  
             
         </div>
@@ -29,12 +44,3 @@ export default function Solution(){
 }
 
 
-//<div className='solution-content'>
-//                <div className="solution-item">
-//                    <div class="m-space"></div>
-//                    <s1>Test and Measurement</s1>
-//                    <p>Precision-engineered cables for high-accuracy data transmission and durable performance in rigorous test and measurement environments.</p>
-//                    <img src={"/s1.png"} alt="test and measurement" />
-//                    <div class="m-space"></div>
-//                </div>           
-//            </div> 
