@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Test and Measurement",
+    "image": "images/s1.png",
+    "content": "Precision-engineered cables for high-accuracy data transmission and durable performance in rigorous test and measurement environments."
+  },
+  {
+    "id": 2,
+    "title": "Medical Systems",
+    "image": "images/s2.png",
+    "content": "Medical-grade cables designed to meet the stringent requirements for safety, reliability, and hygiene in medical systems."
+  },
+  {
+    "id": 3,
+    "title": "Semiconductor",
+    "image": "images/s3.png",
+    "content": "Robust cables engineered to perform in high-demand semiconductor manufacturing processes with precise control and minimal interference."
+  },
+  {
+    "id": 4,
+    "title": "Cloud Computing",
+    "image": "images/s4.png",
+    "content": "High-speed cables optimized for the massive data transfer needs of cloud computing and data center environments."
+  }
+]
