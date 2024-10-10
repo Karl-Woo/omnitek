@@ -24,6 +24,12 @@ h3 {
   line-height: 28px;
 }
 
+s1 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 28px;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -47,7 +53,6 @@ h3 {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-/* Header Styles */
 .header {
   margin-top: 50px;
   background-image: url("../public/logo.png");
@@ -90,9 +95,95 @@ h3 {
   padding: 16px 0;
 }
 
-.solution-content{
+.cta {
+  background-color: #343A3F;
+  border-radius: 48px 48px 0px 0px;
+}
+
+.cta-text {
+  position: relative;
+  text-align: center;
+  top: 40%;
+  width: 60%;
+  left:20%;
+  transform: translateY(-40%, 0%);
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 16px 0;
+}
+
+.product-sec {
+  background-color: #343A3F;
+  border-radius: 48px 48px 48px 48px;
+}
+
+.product-content {
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px 24px;  
+  padding: 1rem;
+  margin-left: auto;
+}
+
+.product-item {
+  display: flex; 
+  flex-flow: column;
+  color: #F4F4F4;
+  background-color: #4D5358;
+  border-radius: 48px;
+  width: 30%;
+  padding: 24px 24px;
+  text-align: left;
+}
+
+.body {
+  text-align: left;
+  padding: 0px 16px;
+}
+
+.right-icon {
+  margin-left: 16px;
+	width: 24px;
+	height: 24px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+	background-image: url("../public/images/arrow-right.png");
+}
+
+.right-icon:hover {
+  filter:brightness(150%);
+  transition: transform 250ms;
+  transform: translateX(10px);
+}
+
+.product-item > img {
+  order: -1;  
+  align-self: center; 
+  width: 100%;
+}
+
+.product-text {
+  position: relative;
+  text-align: center;
+  color: #ffffff;
+  top: 40%;
+  transform: translateY(-40%, 0%);
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 16px 0;
+}
+
+.solution-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 24px 24px;  
+  padding: 1rem;
+  margin-left: auto;
 }
 
 .solution-item {
@@ -102,10 +193,13 @@ h3 {
   background-color: #F4F4F4;
   border-radius: 48px;
   width: 45%;
+  padding: 24px 24px;
 }
+
 .solution-item > img {
   order: -1;  
   align-self: center; 
+  width: 100%;
 }
 
 .solution-text {
