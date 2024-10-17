@@ -1,30 +1,30 @@
 import React, {useState, useEffect} from 'react';
 import '../styles.css';
 
-export default function Product(){
+export default function Aboutus(){
 
-    const [productitem, setProductitem] = useState([]);
+    const [solutionitem, setSolutionitem] = useState([]);
 
     useEffect(() => {
 
-        fetch("./omnitek/product.json")
+        fetch("./omnitek/application.json")
         .then(response => response.json())
-        .then(data => setProductitem(data));
+        .then(data => setSolutionitem(data));
         
     },[]);
 
     return ( 
-        <div className='product-sec'>
+        <div>
             <div className="xl-space"></div>
-            <div className='product-text'>
-                <h2>Explore Our High-Performance Cables</h2>
+            <div className='solution-text'>
+                <h2>Applications</h2>
                 <div className="m-space"></div>
-                <h3>Designed to Meet the Needs of Your Industry, From Standard to Custom-Made.</h3>
+                <h3>Tailored cable solutions for precision, performance, and innovation across industries</h3>
                 <div className="l-space"></div>
-                <div className='product-content'>
+                <div className='solution-content'>
                     {
-                        productitem.map(item => (
-                            <div key={item.id} className="product-item">
+                        solutionitem.map(item => (
+                            <div key={item.id} className="solution-item">
                                 <img src={`./omnitek/images/${item.image}`} alt={item.title}/>
                                 <div className="l-space"></div>
                                 <div>
@@ -32,12 +32,10 @@ export default function Product(){
                                     <div className="m-space"></div>
                                     <p className="body">{item.content}</p>
                                     <div className="m-space"></div>
-                                    <i className="right-icon"></i>
-                                    <div className="s-space"></div>
-                                </div>        
+                                </div>   
                             </div>
                         ))
-                    }
+                    }   
                 </div>                      
             </div>  
             <div className="xl-space"></div>
