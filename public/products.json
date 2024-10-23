@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "title": "Microwave Coax Cable",
+    "type": "Coax Cable",
+    "image": "p1.png",
+    "content": "Our RF cables provide reliable signal transmission across a wide frequency range. Ideal for telecommunications, broadcasting applications where performance is critical."
+  },
+  {
+    "id": 2,
+    "title": "Semi-Rigid Coax Cable",
+    "type": "Coax Cable",
+    "image": "p1.png",
+    "content": "Our RF cables provide reliable signal transmission across a wide frequency range. Ideal for telecommunications, broadcasting applications where performance is critical."
+  },
+  {
+    "id": 3,
+    "title": "Mini Coax Cable",
+    "type": "Coax Cable",
+    "image": "p1.png",
+    "content": "Our RF cables provide reliable signal transmission across a wide frequency range. Ideal for telecommunications, broadcasting applications where performance is critical."
+  },
+  {
+    "id": 4,
+    "title": "High Speed with Drain",
+    "type": "High Speed Cable",
+    "image": "p2.png",
+    "content": "Designed for high-bandwidth applications, our high-speed cables deliver fast and reliable data transfer for industries such as cloud computing, networking, and electronics."
+  },
+  {
+    "id": 5,
+    "title": "High Speed without Drain",
+    "type": "High Speed Cable",
+    "image": "p2.png",
+    "content": "Designed for high-bandwidth applications, our high-speed cables deliver fast and reliable data transfer for industries such as cloud computing, networking, and electronics."
+  },
+  {
+    "id": 6,
+    "title": "LVDS Cable",
+    "type": "Other Cable",
+    "image": "p3.png",
+    "content": "Need a solution that fits your unique requirements? Our custom-made cables are designed to your exact specifications, ensuring optimal performance."
+  },
+  {
+    "id": 7,
+    "title": "Custom Made Cable",
+    "type": "Other Cable",
+    "image": "p3.png",
+    "content": "Need a solution that fits your unique requirements? Our custom-made cables are designed to your exact specifications, ensuring optimal performance."
+  }
+]

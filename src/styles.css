@@ -96,7 +96,7 @@ s1 {
   padding: 16px 0;
 }
 
-.left-right {
+.left-right-about {
   background-image: url("../public/images/aboutus.png");
   background-position: center left;
   background-size: 50% auto;
@@ -107,6 +107,22 @@ s1 {
   padding-right: 5%;
   display: flex;
   justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.left-right-contact {
+  background-image: url("../public/images/contactus.png");
+  background-position: center left;
+  background-size: 50% auto;
+  background-repeat: no-repeat;
+  background-color: #F4F4F4;
+  border-radius: 48px;
+  margin: 16px;
+  padding-right: 5%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
   align-items: center;
 }
 
@@ -118,6 +134,13 @@ s1 {
   justify-content: space-between;
   flex-direction: column;
   padding: 16px 0;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }
 
 .cta {
@@ -161,6 +184,48 @@ s1 {
   width: 30%;
   padding: 24px 24px;
   text-align: left;
+}
+
+.product-item:hover {
+  background-color: #697077;
+  transition: transform 250ms;
+}
+
+.product-item:hover .right-icon {
+  filter:brightness(150%);
+  transition: transform 300ms;
+  transform: translateX(10px);
+}
+
+.product-item:hover s1 {
+  color:#EE597B;
+}
+
+.products-item {
+  display: flex; 
+  flex-flow: column;
+  color: #343A3F;
+  background-color: #DDE1E6;
+  border-radius: 48px;
+  width: 30%;
+  padding: 24px 24px;
+  text-align: left;
+}
+
+.products-item:hover {
+  background-color: #C1C7CD;
+  transition: transform 250ms;
+}
+
+.products-item:hover .right-icon {
+  filter:brightness(110%);
+  transition: transform 300ms;
+  transform: translateX(10px);
+}
+
+.products-item:hover s1 {
+  color:#CB1D45;
+  filter:brightness(110%);
 }
 
 .body {
