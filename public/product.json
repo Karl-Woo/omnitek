@@ -1,20 +1,20 @@
 [
-    {
-      "id": 1,
-      "title": "Coax Cable",
-      "image": "p1.png",
-      "content": "Our RF cables provide reliable signal transmission across a wide frequency range. Ideal for telecommunications, broadcasting applications where performance is critical."
-    },
-    {
-      "id": 2,
-      "title": "High Speed Cable",
-      "image": "p2.png",
-      "content": "Designed for high-bandwidth applications, our high-speed cables deliver fast and reliable data transfer for industries such as cloud computing, networking, and electronics."
-    },
-    {
-      "id": 3,
-      "title": "LVDS Cable",
-      "image": "p3.png",
-      "content": "Need a solution that fits your unique requirements? Our custom-made cables are designed to your exact specifications, ensuring optimal performance."
-    }
-  ]
+  {
+    "id": 1,
+    "title": "Coax Cable",
+    "image": "c1.jpg",
+    "content": "Our RF cables provide reliable signal transmission across a wide frequency range. Ideal for telecommunications, broadcasting applications where performance is critical."
+  },
+  {
+    "id": 2,
+    "title": "High Speed Cable",
+    "image": "t1.jpg",
+    "content": "Designed for high-bandwidth applications, our high-speed cables deliver fast and reliable data transfer for industries such as cloud computing, networking, and electronics."
+  },
+  {
+    "id": 3,
+    "title": "LVDS Cable",
+    "image": "o1.jpg",
+    "content": "Need a solution that fits your unique requirements? Our custom-made cables are designed to your exact specifications, ensuring optimal performance."
+  }
+]

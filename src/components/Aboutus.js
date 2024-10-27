@@ -1,6 +1,8 @@
 import "../styles.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Aboutus() {
+  const navigate = useNavigate();
   return (
     <div>
       <div className="xl-space"></div>
@@ -37,7 +39,12 @@ export default function Aboutus() {
               high speed data transmission.
             </p>
             <div className="l-space"></div>
-            <button className="primary-button">Contact us</button>
+            <button
+              className="primary-button"
+              onClick={() => navigate("../contactus")}
+            >
+              Contact us
+            </button>
             <div className="l-space"></div>
           </div>
         </div>
