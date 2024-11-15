@@ -7,8 +7,18 @@ import ProductDetails from "./components/ProductDetails";
 import Applications from "./components/Applications";
 import Contactus from "./components/Contactus";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import React, { useState } from "react";
 
 function App() {
+  const [showSearchBar, setShowSearchBar] = useState(false);
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const handleSearchSubmit = (e) => {
+    e.preventDefault();
+    // Navigate to /products with search term
+    window.location.href = `/products?search=${searchTerm}`;
+  };
+
   return (
     <div className="App">
       <Router>
@@ -46,9 +56,27 @@ function App() {
                 </a>
               </li>
               <li>
-                <a className="textlink" href="/products">
-                  Search
-                </a>
+                <div className="search-container">
+                  {!showSearchBar ? (
+                    <img
+                      className="search-icon"
+                      src={`./omnitek/images/search.svg`}
+                      alt="Search"
+                      onClick={() => setShowSearchBar(true)}
+                    />
+                  ) : (
+                    <form onSubmit={handleSearchSubmit} className="search-form">
+                      <input
+                        type="text"
+                        placeholder="Search product..."
+                        value={searchTerm}
+                        onChange={(e) => setSearchTerm(e.target.value)}
+                        className="search-input1"
+                        autoFocus
+                      />
+                    </form>
+                  )}
+                </div>
               </li>
             </ul>
             <a href="/contactus">
@@ -61,7 +89,10 @@ function App() {
             <Route path="/" element={<Home />}></Route>
             <Route path="/aboutus" element={<Aboutus />}></Route>
             <Route path="/products" element={<Products />}></Route>
-            <Route path="/products/:id" element={<ProductDetails />} />
+            <Route
+              path="/products/:contentId"
+              element={<ProductDetails />}
+            ></Route>
             <Route path="/applications" element={<Applications />}></Route>
             <Route path="/contactus" element={<Contactus />}></Route>
           </Routes>

@@ -1,70 +1,122 @@
 import "../styles.css";
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 export default function ProductDetails() {
   const [productDetail, setProductDetail] = useState([]);
-  const { contentId } = useParams();
+  let { contentId } = useParams();
+  const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("/productdetails.json")
+    fetch("../omnitek/productdetails.json")
       .then((response) => response.json())
       .then((data) => setProductDetail(data))
       .catch((error) => console.error("Error fetching data:", error));
   }, []);
 
   const item = productDetail.find(
-    (item) => item.id.toLowerCase() === contentId.id.toLowerCase()
+    (item) => item.id.toLowerCase() === contentId.toLowerCase()
   );
 
   return (
     <div>
-      <div className="xl-space"></div>
+      <div className="l-space"></div>
+      <div className="d-textlink" onClick={() => navigate(-1)}>
+        <i className="left-icon"></i>
+        <p>Back</p>
+      </div>
       <div className="solution-text">
         {item ? (
           <>
-            <h1>{item.title}</h1>
-            <div className="l-space"></div>
-            <div className="left-right-about">
-              <div className="right-text">
-                <div className="l-space"></div>
-                <p>
-                  Whether you need high-performance cables for a specific
-                  project or a custom solution designed to your specifications,
-                  our team is here to help you achieve your goals. Omnitek is
-                  dedicated to the design, development, and manufacturing of
-                  cables for microwave coax, micro coax, high data rate,
-                  optical, and composite constructions.
-                </p>
+            <div className="d-header">
+              <div className="left-text">
+                <h1>{item.title}</h1>
+                <div className="s-space"></div>
+                <b>{item.subtitle}</b>
                 <div className="m-space"></div>
-                <p>
-                  We provide these standard and custom products to customers who
-                  demand high performance for applications requiring the use of
-                  ePTFE and FEP dielectric materials, operating frequencies up
-                  to 70GHz, Vp of up to 85%, excellent phase stability, and
-                  tightly controlled characteristic impedance. Signal integrity
-                  and transmission performance define your product or system
-                  quality, and we optimize our products to meet your needs.
-                </p>
-                <div className="m-space"></div>
-                <p>
-                  In addition to electrical characteristics, we deliver products
-                  that require wide operating temperatures, high-density
-                  packaging, lightweight construction, mechanical flex life, and
-                  long-distance performance. We serve the demanding industries
-                  of automated test systems, RF systems, medical imaging,
-                  aviation systems, and custom high-speed data transmission.
-                </p>
-                <div className="l-space"></div>
+                <p>{item.description}</p>
               </div>
+              <div className="right-image">
+                <img
+                  src={`../omnitek/images/${item.headimage}`}
+                  alt={item.title}
+                />
+              </div>
+            </div>
+            <div className="l-space"></div>
+            <div className="d">
+              <div className="l-space"></div>
+              <h2>Product Highlight</h2>
+              <div className="d-s">
+                <h3>Cable Construction</h3>
+                <div className="d-s-img">
+                  <img
+                    src={`../omnitek/images/${item.specification}`}
+                    alt={item.title}
+                  />
+                  <img
+                    src={`../omnitek/images/${item.table}`}
+                    alt={item.title}
+                  />
+                </div>
+              </div>
+              <div className="s-space"></div>
+              <div className="d-section">
+                <div>
+                  <h3>Features and Benefits</h3>
+                  <ul>
+                    {item.feature &&
+                      item.feature.map((feature, index) => (
+                        <li key={index}>{feature}</li>
+                      ))}
+                  </ul>
+                </div>
+                <div>
+                  <h3>Typical Applications</h3>
+                  <ul>
+                    {item.application &&
+                      item.application.map((application, index) => (
+                        <li key={index}>{application}</li>
+                      ))}
+                  </ul>
+                </div>
+                <div>
+                  <h3>Standards Compliance</h3>
+                  <ul>
+                    {item.compliance &&
+                      item.compliance.map((compliance, index) => (
+                        <li key={index}>{compliance}</li>
+                      ))}
+                  </ul>
+                </div>
+              </div>
+              <div className="s-space"></div>
+              {item.performance && (
+                <div className="d-p">
+                  <h3>Performance</h3>
+                  <img
+                    src={`../omnitek/images/${item.performance}`}
+                    alt={item.title}
+                  />
+                </div>
+              )}
+              {item.parameter && (
+                <div className="d-p1">
+                  <h3>Cable Parameters</h3>
+                  <img
+                    src={`../omnitek/images/${item.parameter}`}
+                    alt={item.title}
+                  />
+                </div>
+              )}
+              <div className="l-space"></div>
             </div>
           </>
         ) : (
           <p>Sorry. item not found...</p>
         )}
       </div>
-      <div className="xl-space"></div>
     </div>
   );
 }

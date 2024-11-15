@@ -3,24 +3,56 @@
     "id": 1,
     "title": "Test and Measurement",
     "image": "s1.png",
-    "content": "Precision-engineered cables for high-accuracy data transmission and durable performance in rigorous test and measurement environments."
+    "content": "Precision-engineered cables for high-accuracy data transmission and durable performance in rigorous test and measurement environments.",
+    "product-id": ["Microwave-Coax-Cable", "Microwave-Low-Loss-Coax-Cable"],
+    "product": ["Microwave Coax Cable", "Microwave Low Loss Coax Cable"]
   },
   {
     "id": 2,
-    "title": "Medical Systems",
-    "image": "s2.png",
-    "content": "Medical-grade cables designed to meet the stringent requirements for safety, reliability, and hygiene in medical systems."
+    "title": "Medical",
+    "image": "s4.png",
+    "content": "Medical-grade cables designed to meet the stringent requirements for safety, reliability, and hygiene in medical systems.",
+    "product-id": ["Mini-Coax-Cable"],
+    "product": ["Mini Coax Cable"]
   },
   {
     "id": 3,
-    "title": "Semiconductor",
-    "image": "s3.png",
-    "content": "Robust cables engineered to perform in high-demand semiconductor manufacturing processes with precise control and minimal interference."
+    "title": "Aircraft",
+    "image": "s5.png",
+    "content": "Robust cables engineered to perform in high-demand semiconductor manufacturing processes with precise control and minimal interference.",
+    "product-id": [
+      "Microwave-Coax-Cable",
+      "IEEE1394b-Cable",
+      "Ethernet-CAT6a-Cable"
+    ],
+    "product": [
+      "Microwave Coax Cable",
+      "IEEE1394b Cable",
+      "Ethernet CAT6a Cable"
+    ]
   },
   {
     "id": 4,
     "title": "Cloud Computing",
-    "image": "s4.png",
-    "content": "High-speed cables optimized for the massive data transfer needs of cloud computing and data center environments."
+    "image": "s3.png",
+    "content": "High-speed cables optimized for the massive data transfer needs of cloud computing and data center environments.",
+    "product-id": ["100-OHMS", "HDMI-Cable", "USB-Cable"],
+    "product": ["Twinax Cable", "HDMI Cable", "USB Cable"]
+  },
+  {
+    "id": 5,
+    "title": "Industry",
+    "image": "s2.png",
+    "content": "Robust cables engineered to perform in high-demand semiconductor manufacturing processes with precise control and minimal interference.",
+    "product-id": ["Semi-Rigid-Coax-Cable"],
+    "product": ["Semi-Rigid Coax Cable"]
+  },
+  {
+    "id": 6,
+    "title": "Others",
+    "image": "s6.png",
+    "content": "High-speed cables optimized for the massive data transfer needs of cloud computing and data center environments.",
+    "product-id": ["Customized-Cable"],
+    "product": ["Customized Cable"]
   }
 ]

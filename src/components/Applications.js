@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import "../styles.css";
 
 export default function Aboutus() {
-  const [solutionitem, setSolutionitem] = useState([]);
+  const [solutionItems, setSolutionItems] = useState([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
     fetch("./omnitek/application.json")
       .then((response) => response.json())
-      .then((data) => setSolutionitem(data));
+      .then((data) => setSolutionItems(data));
   }, []);
 
   return (
@@ -22,15 +24,26 @@ export default function Aboutus() {
         </h3>
         <div className="l-space"></div>
         <div className="solution-content">
-          {solutionitem.map((item) => (
+          {solutionItems.map((item) => (
             <div key={item.id} className="solution-item">
               <img src={`./omnitek/images/${item.image}`} alt={item.title} />
               <div className="l-space"></div>
               <div>
-                <s1 className="body">{item.title}</s1>
+                <b className="body">{item.title}</b>
                 <div className="m-space"></div>
                 <p className="body">{item.content}</p>
                 <div className="m-space"></div>
+                <div className="button-container">
+                  {item["product-id"].map((productId, index) => (
+                    <button
+                      key={productId}
+                      className="secondary-button"
+                      onClick={() => navigate(`/products/${productId}`)}
+                    >
+                      {item.product[index]}
+                    </button>
+                  ))}
+                </div>
               </div>
             </div>
           ))}

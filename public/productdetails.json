@@ -2,13 +2,13 @@
   {
     "id": "Microwave-Coax-Cable",
     "title": "Microwave Coax Cable",
-    "type": "Coax Cable",
+    "type": "RF Cable",
     "subtitle": "Phase Stable, 70 GHz | 70% VP",
     "headimage": "c1.jpg",
-    "specification": "c1.jpg",
-    "table": "c1.jpg",
-    "performance": "c1.jpg",
-    "description": "LINCOS Phase Stable Microwave Coax Cables can up to 70GHz and with 70% velocity of propagation, using high purity FEP as dielectric and the outer conductor is helically wrapped with silver plated flat copper tape. This construction can obviously decrease attenuation at high frequency compared to conventional RG coaxial cables. At the same time, the construction which outer conductor integrate into insulation closely ensuring the stability and consistency of characteristic impedance, and also ensuring the continuity of the impedance during assembly.",
+    "specification": "m-const.png",
+    "table": "m-data.png",
+    "performance": "m-perform.png",
+    "description": "Omnitek Phase Stable Microwave Coax Cables can up to 70GHz and with 70% velocity of propagation, using high purity FEP as dielectric and the outer conductor is helically wrapped with silver plated flat copper tape. This construction can obviously decrease attenuation at high frequency compared to conventional RG coaxial cables. At the same time, the construction which outer conductor integrate into insulation closely ensuring the stability and consistency of characteristic impedance, and also ensuring the continuity of the impedance during assembly.",
     "feature": [
       "Low insertion loss",
       "Mechanical phase stability",
@@ -26,157 +26,219 @@
       "Telecommunication systems",
       "Module-to-module interconnection"
     ],
-    "standards Compliance": ["MIL-C-17"]
+    "compliance": ["MIL-C-17"]
   },
   {
-    "id": "Semi-Rigid Coax Cable",
-    "title": "Semi-Rigid Coax Cable",
-    "type": "Coax Cable",
-    "subtitle": "Phase Stable, 70 GHz | 70% VP",
-    "headimage": "c1.jpg",
-    "specification": "c1.jpg",
-    "table": "c1.jpg",
-    "performance": "c1.jpg",
-    "description": "LINCOS Phase Stable Microwave Coax Cables can up to 70GHz and with 70% velocity of propagation, using high purity FEP as dielectric and the outer conductor is helically wrapped with silver plated flat copper tape. This construction can obviously decrease attenuation at high frequency compared to conventional RG coaxial cables. At the same time, the construction which outer conductor integrate into insulation closely ensuring the stability and consistency of characteristic impedance, and also ensuring the continuity of the impedance during assembly.",
+    "id": "Microwave-Low-Loss-Coax-Cable",
+    "title": "Microwave-Low-Loss-Coax-Cable",
+    "type": "RF Cable",
+    "subtitle": "",
+    "headimage": "lo.png",
+    "specification": "lo-const.png",
+    "table": "lo-data.png",
+    "performance": "",
+    "description": "Omnitek high performance microwave low loss cables are rugged and flexible, these cables suit microwave interconnects for airborne and ground based military as well as, commercial telecom applications.It performs as low loss test cable for production testing of RF components and equipment with excellent phase stability and durability. Large sizes are ideal for high power industrial applications.",
     "feature": [
-      "Low insertion loss",
-      "Mechanical phase stability",
-      "Low signal delay",
+      "Low insertion loss, low VSWR",
       "Excellent anti-interference capability",
       "High flexibility and bending resistance",
-      "Impedance stability and consistency"
+      "Passive-intermodulation",
+      "High Power application"
     ],
     "application": [
       "Automated test systems",
-      "Intra-connection of RF testing equipments",
-      "Environmental test chambers",
-      "Switching matrix",
-      "Antenna arrays",
       "Telecommunication systems",
-      "Module-to-module interconnection"
+      "Module-to-module interconnect",
+      "General purpose"
     ],
-    "standards Compliance": ["MIL-C-17"]
+    "compliance": [""]
+  },
+  {
+    "id": "Semi-Rigid-Coax-Cable",
+    "title": "Semi-Rigid Coax Cable",
+    "type": "RF Cable",
+    "subtitle": "Phase Stable, 65 GHz | 78% VP",
+    "headimage": "c2.jpg",
+    "specification": "s-const.png",
+    "table": "s-data.png",
+    "performance": "s-perform.png",
+    "description": "Omnitek designed Semi-Rigid Coax Cables is suitable for transmitting high ­frequency signals in mobile communication, quantum computer, radar and other systems. The insulation of the semi steel stable phase coaxial RF cable is wrapped with low-density PTFE, and the outer conductor is made of copper alloy. Its structure has excellent phase stability and shielding characteristics, with lower attenuation in the same size, while supporting operation in extremely low temperature environments. ",
+    "feature": [
+      "The usage frequency can reach 65GHz",
+      "Wide working temperature range(-65~250 °C)",
+      "Impedance control and excellent VSWR performance",
+      "Low attenuation and lightest weight for any given geometry",
+      "Very tight bend radii allow utilization in the tightest configurations",
+      "Can be adapted to Numerous connector options available off the shelf from many different suppliers"
+    ],
+    "application": [
+      "Quantum computer",
+      "Mobile communication",
+      "Radar",
+      "Electronic countermeasure",
+      "Precision instruments",
+      "Aerospace Systems"
+    ],
+    "compliance": ["MIL-DTL-17H"]
   },
   {
     "id": "Mini-Coax-Cable",
     "title": "Mini Coax Cable",
-    "type": "Coax Cable",
-    "subtitle": "Phase Stable, 70 GHz | 70% VP",
-    "headimage": "c1.jpg",
-    "specification": "c1.jpg",
-    "table": "c1.jpg",
-    "performance": "c1.jpg",
-    "description": "LINCOS Phase Stable Microwave Coax Cables can up to 70GHz and with 70% velocity of propagation, using high purity FEP as dielectric and the outer conductor is helically wrapped with silver plated flat copper tape. This construction can obviously decrease attenuation at high frequency compared to conventional RG coaxial cables. At the same time, the construction which outer conductor integrate into insulation closely ensuring the stability and consistency of characteristic impedance, and also ensuring the continuity of the impedance during assembly.",
+    "type": "RF Cable",
+    "subtitle": "With Braided Shield, 26.5 GHz | 70% Vp ",
+    "headimage": "c3.jpg",
+    "specification": "mi-const.png",
+    "table": "mi-data.png",
+    "description": "Omnitek designs and manufactures mini coax cables to support challenging installations and meet the electrical performance requirements of digital communication systems. LINCOS offers a wide range of mini coax cables in standard configurations, as well as customized and optimized to meet customer requirements. Optimized mini coax cables can replace standard RG coaxial cables, while providing lower attenuation, lighter weight, and smaller diameters. The cables are available in sizes ranging from 30AWG to 38AWG, with braided and serve shields. Braid shield cable is commonly used in applications requiring high shielding performance, such as communications, medical, aerospace, etc. due to its good shielding effect and bending adaptability. Serve shield cable is characterized by a smaller finished outside diameter and softer wire.",
     "feature": [
-      "Low insertion loss",
-      "Mechanical phase stability",
-      "Low signal delay",
-      "Excellent anti-interference capability",
-      "High flexibility and bending resistance",
-      "Impedance stability and consistency"
+      "Cost effective",
+      "Compact size",
+      "High signal integrity",
+      "High speed signal transmission",
+      "Easy to integrate",
+      "Easy to repair and replace",
+      "Wide range of applications"
     ],
     "application": [
-      "Automated test systems",
-      "Intra-connection of RF testing equipments",
-      "Environmental test chambers",
-      "Switching matrix",
-      "Antenna arrays",
-      "Telecommunication systems",
-      "Module-to-module interconnection"
+      "Audio transmission",
+      "Automotive electronics",
+      "Precision instrument connection",
+      "Communication system",
+      "Medical equipment",
+      "Aerospace field",
+      "Automatic control system"
     ],
-    "standards Compliance": ["MIL-C-17"]
+    "compliance": ["MIL-C-17"]
   },
   {
-    "id": "High-Speed-with-Drain",
-    "title": "High Speed with Drain",
-    "type": "High Speed Cable",
-    "subtitle": "Phase Stable, 70 GHz | 70% VP",
-    "headimage": "c1.jpg",
-    "specification": "c1.jpg",
-    "table": "c1.jpg",
-    "performance": "c1.jpg",
-    "description": "LINCOS Phase Stable Microwave Coax Cables can up to 70GHz and with 70% velocity of propagation, using high purity FEP as dielectric and the outer conductor is helically wrapped with silver plated flat copper tape. This construction can obviously decrease attenuation at high frequency compared to conventional RG coaxial cables. At the same time, the construction which outer conductor integrate into insulation closely ensuring the stability and consistency of characteristic impedance, and also ensuring the continuity of the impedance during assembly.",
+    "id": "Twinax-Cable",
+    "title": "Twinax-Cable",
+    "type": "Data Cable",
+    "subtitle": "100 | 92 | 85 OMHS, With Drain | Without Drain, Suck-out free up to 40 GHz",
+    "headimage": "t1.jpg",
+    "specification": "100-const.png",
+    "table": "100-data.png",
+    "parameter": "tw-perform.png",
+    "description": "For high-performance computing, routers, storage and switches, cables that can efficiently carry large volumes of data are critical. Omnitek High Speed Twin ax Cables have typical characteristics of low attenuation and low time delay, and can maintain highspeed signal transmission up to 40GHz. Omnitek offers optional cables without drain wire and double drain wire.",
     "feature": [
-      "Low insertion loss",
-      "Mechanical phase stability",
-      "Low signal delay",
-      "Excellent anti-interference capability",
-      "High flexibility and bending resistance",
-      "Impedance stability and consistency"
+      "High transmission rate",
+      "High reliability",
+      "Strong anti-interference ability",
+      "Low transmission error",
+      "Long transmission distance"
     ],
     "application": [
-      "Automated test systems",
-      "Intra-connection of RF testing equipments",
-      "Environmental test chambers",
-      "Switching matrix",
-      "Antenna arrays",
-      "Telecommunication systems",
-      "Module-to-module interconnection"
+      "Digital Video System",
+      "Avionics Network",
+      "Ethernet System",
+      "High-speed Bus",
+      "Radar",
+      "Satellite Communication"
     ],
-    "standards Compliance": ["MIL-C-17"]
+    "compliance": [
+      "ANSI/NEMA WC 27500 Performance Requirements: Environmental Testing, Jacket and Marking",
+      "FAR Part 25, Appendix F, Part I and MIL-W-22759: Flame Resistance",
+      "FAR Part 25, Appendix F, Part V: Smoke Density"
+    ]
   },
   {
-    "id": "High-Speed-without-Drain",
-    "title": "High Speed without Drain",
-    "type": "High Speed Cable",
-    "subtitle": "Phase Stable, 70 GHz | 70% VP",
-    "headimage": "c1.jpg",
-    "specification": "c1.jpg",
-    "table": "c1.jpg",
-    "performance": "c1.jpg",
-    "description": "LINCOS Phase Stable Microwave Coax Cables can up to 70GHz and with 70% velocity of propagation, using high purity FEP as dielectric and the outer conductor is helically wrapped with silver plated flat copper tape. This construction can obviously decrease attenuation at high frequency compared to conventional RG coaxial cables. At the same time, the construction which outer conductor integrate into insulation closely ensuring the stability and consistency of characteristic impedance, and also ensuring the continuity of the impedance during assembly.",
+    "id": "Ethernet-CAT6a-Cable",
+    "title": "Ethernet CAT6a Cable",
+    "type": "Data Cable",
+    "subtitle": "",
+    "headimage": "eth-const.png",
+    "specification": "eth-const.png",
+    "table": "eth-data.png",
+    "parameter": "eth-perform.png",
+    "description": "Omnitek Cat6a Ethernet cable is suitable for digital high speed networks. The cable insulation dielectric adopts low dielectric constant expanded PTFE, which makes the cable have the advantages of low delay, small wire diameter and light weight at the same time. Compared with the solid fluorine plastic insulation dielectric cable with the same size conductor, the outer diameter is 24% smaller and the product unit weight is 25% lighter. Cable specifications cover 24AWG to 30AWG, so that the optimal solution can be selected according to different usage scenarios.",
     "feature": [
-      "Low insertion loss",
-      "Mechanical phase stability",
-      "Low signal delay",
-      "Excellent anti-interference capability",
-      "High flexibility and bending resistance",
-      "Impedance stability and consistency"
+      "Provides reliable signal integrity in challenging environments",
+      "Expanded PTFE insulation dielectric provides low time delay",
+      "Smaller wire diameter and lighter weight than standard Cat6a cable",
+      "Smaller bend radius for easy routing in tight spaces"
     ],
     "application": [
-      "Automated test systems",
-      "Intra-connection of RF testing equipments",
-      "Environmental test chambers",
-      "Switching matrix",
-      "Antenna arrays",
-      "Telecommunication systems",
-      "Module-to-module interconnection"
+      "Ethernet backbone",
+      "Digital imaging system",
+      "Airborne Communication Network",
+      "Flight management system",
+      "Flight entertainment system"
     ],
-    "standards Compliance": ["MIL-C-17"]
+    "compliance": [
+      "ANSI/NEMA WC 27500 Performance Requirements: Environmental Testing, Jacket and Marking",
+      "ANSI/TIA 56 8 -C.2",
+      "IEEE8 0 2 .3 : Eth e rn e t 10G BASE-T"
+    ]
   },
   {
-    "id": "LVDS-Cable",
-    "title": "LVDS Cable",
-    "type": "Other Cable",
-    "subtitle": "Phase Stable, 70 GHz | 70% VP",
-    "headimage": "c1.jpg",
-    "specification": "c1.jpg",
-    "table": "c1.jpg",
-    "performance": "c1.jpg",
-    "description": "LINCOS Phase Stable Microwave Coax Cables can up to 70GHz and with 70% velocity of propagation, using high purity FEP as dielectric and the outer conductor is helically wrapped with silver plated flat copper tape. This construction can obviously decrease attenuation at high frequency compared to conventional RG coaxial cables. At the same time, the construction which outer conductor integrate into insulation closely ensuring the stability and consistency of characteristic impedance, and also ensuring the continuity of the impedance during assembly.",
-    "feature": [
-      "Low insertion loss",
-      "Mechanical phase stability",
-      "Low signal delay",
-      "Excellent anti-interference capability",
-      "High flexibility and bending resistance",
-      "Impedance stability and consistency"
-    ],
+    "id": "HDMI-Cable",
+    "title": "HDMI Cable",
+    "type": "Data Cable",
+    "subtitle": "",
+    "headimage": "hdmi.png",
+    "specification": "hdmi-const.png",
+    "table": "hdmi-data.png",
+    "parameter": "hdmi-perform.png",
+    "description": "Omnitek provides a signal integrity transmission link for long distance, high speed data transmission (18Gbps). The cable provides a richer viewing experience, supporting 4K (2160P) video resolution, which is four times clearer than 1080p. The small size and light weight features making it suitable for wiring in small aircraft spaces.",
+    "feature": [""],
     "application": [
-      "Automated test systems",
-      "Intra-connection of RF testing equipments",
-      "Environmental test chambers",
-      "Switching matrix",
-      "Antenna arrays",
-      "Telecommunication systems",
-      "Module-to-module interconnection"
+      "Digital Video System",
+      "Flight management systems",
+      "Portable electronic devices",
+      "Weather mapping"
     ],
-    "standards Compliance": ["MIL-C-17"]
+    "compliance": [""]
+  },
+  {
+    "id": "USB-Cable",
+    "title": "USB Cable",
+    "type": "Data Cable",
+    "subtitle": "",
+    "headimage": "usb.png",
+    "specification": "usb-const.png",
+    "table": "usb-data.png",
+    "parameter": "usb-perform.png",
+    "description": "Omnitek designs and manufactures high performance USB cables with data transfer rates up to 10 Gb, ensuring timely upload and download of large amounts of data and video. The cables use a variety of high performance materials to provide additional protection for the cables, allowing them to meet the operational and lifecycle requirements of aerospace environments.",
+    "feature": [""],
+    "application": [
+      "Electronic flight bag(EFB)",
+      "Data transfer",
+      "Digital video systems",
+      "Portable electronic devices",
+      "Power remote devices"
+    ],
+    "compliance": [""]
+  },
+  {
+    "id": "IEEE1394b-Cable",
+    "title": "IEEE1394b Cable",
+    "type": "Data Cable",
+    "subtitle": "",
+    "headimage": "ieee.png",
+    "specification": "ieee-const.png",
+    "table": "ieee-data.png",
+    "parameter": "ieee-perform.png",
+    "description": "Omnitek IEEE 1394b Firewire® high-speed cables provide a reliable interconnect solution. Compared to general twisted pair cables, quad cables have reduced geometry and significant weight reduction.The cable supports a wide range of operating temperatures (-55°C to 200°C) to meet the requirements of harsh environmental applications. The insulation dielectric is completed by wrapping foamed PTFE tape, which resistant temperature up to 260°C. The tape ensure cable size smaller, time delay and attenuation lower . Those wrapped cables are softer and smaller than extruded cables, and are the best choice for aircraft and spacecraft data buses today.",
+    "feature": [
+      "Quad design, compared with the twisted pair, diameter is smaller 40% and 45% weight saving.",
+      "Low-density PTFE insulation has a low power dissipation factor angle, signal low loss to supports long-distance signal transmission.",
+      "The low dielectric constant to sure smaller cable diameter, fused composite insulation prevent retraction during assembly.",
+      "Conductors are available in the 22AWG to 28AWG range for the best performance and weight ratio."
+    ],
+    "application": ["Aerospace field"],
+    "compliance": [
+      "ANSI/NEMA WC 27500 Performance Requirements: Environmental Testing, Jacket and Marking",
+      "BSS7239 : Toxicity",
+      "FAR Part 25, Appendix F , MIL−W−22759: Flame-retardant and Smoke Density",
+      "MIL−STD−461:Electromagnetic compatibility",
+      "RTCA: Lightning Strikes",
+      "NASA -5643: IEEE1394b Interface Requirements for Military and Spacecraft"
+    ]
   },
   {
     "id": "Custom-Made-Cable",
     "title": "Custom Made Cable",
-    "type": "Other Cable",
+    "type": "Customized Cable",
     "subtitle": "Phase Stable, 70 GHz | 70% VP",
     "headimage": "c1.jpg",
     "specification": "c1.jpg",
@@ -200,6 +262,6 @@
       "Telecommunication systems",
       "Module-to-module interconnection"
     ],
-    "standards Compliance": ["MIL-C-17"]
+    "compliance": ["MIL-C-17"]
   }
 ]

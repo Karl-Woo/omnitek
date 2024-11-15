@@ -1,17 +1,26 @@
 import React, { useState, useEffect } from "react";
 import "../styles.css";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 
 export default function Products() {
   const [productitem, setProductitem] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
   const navigate = useNavigate();
+  const location = useLocation();
 
   useEffect(() => {
+    // Load products
     fetch("./omnitek/products.json")
       .then((response) => response.json())
       .then((data) => setProductitem(data));
-  }, []);
+
+    // Get the search term from the URL
+    const params = new URLSearchParams(location.search);
+    const term = params.get("search");
+    if (term) {
+      setSearchTerm(term);
+    }
+  }, [location.search]);
 
   const handleSearchChange = (e) => {
     setSearchTerm(e.target.value);
@@ -22,14 +31,14 @@ export default function Products() {
   );
 
   const filteredCoax = filteredproducts.filter(
-    (item) => item.type === "Coax Cable"
+    (item) => item.type === "RF Cable"
   );
 
   const filteredHigh = filteredproducts.filter(
-    (item) => item.type === "High Speed Cable"
+    (item) => item.type === "Data Cable"
   );
   const filteredOther = filteredproducts.filter(
-    (item) => item.type === "Other Cable"
+    (item) => item.type === "Customized Cable"
   );
 
   return (
@@ -49,16 +58,13 @@ export default function Products() {
         <hr />
 
         {filteredCoax.length > 0 && (
-          <div className="products-content">
+          <div className="products-content" id="1">
             <div className="l-space"></div>
-            <h2 className="dis">Coax Cable</h2>
-            <div className="m-space"></div>
+            <h2 className="dis">RF Cable</h2>
             <p className="dis">
-              Our RF cables provide reliable signal transmission across a wide
-              frequency range. Ideal for telecommunications, broadcasting
-              applications where performance is critical.
+              High-frequency cables designed for reliable signal transmission in
+              demanding RF and microwave applications.
             </p>
-            <div className="m-space"></div>
             <div className="products-content">
               {filteredCoax.map((item) => (
                 <div
@@ -72,7 +78,7 @@ export default function Products() {
                   />
                   <div className="l-space"></div>
                   <div>
-                    <s1 className="body">{item.title}</s1>
+                    <b className="body">{item.title}</b>
                     <div className="m-space"></div>
                     <p className="body">{item.content}</p>
                     <div className="m-space"></div>
@@ -86,15 +92,12 @@ export default function Products() {
           </div>
         )}
         {filteredHigh.length > 0 && (
-          <div className="products-content">
-            <h2 className="dis">High Speed Twin-ax Cable</h2>
-            <div className="m-space"></div>
+          <div className="products-content" id="2">
+            <h2 className="dis">Data Cable</h2>
             <p className="dis">
-              Our RF cables provide reliable signal transmission across a wide
-              frequency range. Ideal for telecommunications, broadcasting
-              applications where performance is critical.
+              High-performance cables for fast, secure data transmission across
+              various digital and multimedia applications.
             </p>
-            <div className="m-space"></div>
             <div className="products-content">
               {filteredHigh.map((item) => (
                 <div
@@ -108,7 +111,7 @@ export default function Products() {
                   />
                   <div className="l-space"></div>
                   <div>
-                    <s1 className="body">{item.title}</s1>
+                    <b className="body">{item.title}</b>
                     <div className="m-space"></div>
                     <p className="body">{item.content}</p>
                     <div className="m-space"></div>
@@ -122,21 +125,24 @@ export default function Products() {
           </div>
         )}
         {filteredOther.length > 0 && (
-          <div className="products-content">
-            <h2 className="dis">Other Cables</h2>
-            <div className="m-space"></div>
+          <div className="products-content" id="3">
+            <h2 className="dis">Customized Cables</h2>
             <p className="dis">
-              Our RF cables provide reliable signal transmission across a wide
-              frequency range. Ideal for telecommunications, broadcasting
-              applications where performance is critical.
+              Specialized cables engineered to match unique specifications for
+              specific industry applications.
             </p>
-            <div className="m-space"></div>
             <div className="products-content">
               {filteredOther.map((item) => (
                 <div
                   key={item.id}
                   className="products-item"
-                  onClick={() => navigate(`${item.id}`)}
+                  onClick={() => {
+                    if (item.id === "Custom-Made-Cable") {
+                      navigate("/contactus");
+                    } else {
+                      navigate(`${item.id}`);
+                    }
+                  }}
                 >
                   <img
                     src={`./omnitek/images/${item.image}`}
@@ -144,7 +150,7 @@ export default function Products() {
                   />
                   <div className="l-space"></div>
                   <div>
-                    <s1 className="body">{item.title}</s1>
+                    <b className="body">{item.title}</b>
                     <div className="m-space"></div>
                     <p className="body">{item.content}</p>
                     <div className="m-space"></div>

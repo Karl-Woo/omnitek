@@ -2,50 +2,71 @@
   {
     "id": "Microwave-Coax-Cable",
     "title": "Microwave Coax Cable",
-    "type": "Coax Cable",
+    "type": "RF Cable",
     "image": "c1.jpg",
-    "content": "Our RF cables provide reliable signal transmission across a wide frequency range. Ideal for telecommunications, broadcasting applications where performance is critical."
+    "content": "High-quality coaxial cable engineered for stable and efficient signal transmission in microwave applications, offering reliable performance across a wide frequency range."
   },
   {
-    "id": "Semi-Rigid Coax Cable",
-    "title": "Semi-Rigid Coax Cable",
-    "type": "Coax Cable",
-    "image": "c2.jpg",
-    "content": "Our RF cables provide reliable signal transmission across a wide frequency range. Ideal for telecommunications, broadcasting applications where performance is critical."
+    "id": "Microwave-Low-Loss-Coax-Cable",
+    "title": "Microwave Low Loss Coax Cable",
+    "type": "RF Cable",
+    "image": "lo.png",
+    "content": "Specially designed coaxial cable with low attenuation, ensuring minimal signal loss in high-frequency microwave systems for superior clarity and signal integrity."
   },
   {
     "id": "Mini-Coax-Cable",
     "title": "Mini Coax Cable",
-    "type": "Coax Cable",
+    "type": "RF Cable",
     "image": "c3.jpg",
-    "content": "Our RF cables provide reliable signal transmission across a wide frequency range. Ideal for telecommunications, broadcasting applications where performance is critical."
+    "content": "Compact, space-saving coaxial cable optimized for tight installations, delivering high-frequency performance in restricted spaces without compromising signal quality."
   },
   {
-    "id": "High-Speed-with-Drain",
-    "title": "High Speed with Drain",
-    "type": "High Speed Cable",
-    "image": "t1.jpg",
-    "content": "Designed for high-bandwidth applications, our high-speed cables deliver fast and reliable data transfer for industries such as cloud computing, networking, and electronics."
+    "id": "Semi-Rigid-Coax-Cable",
+    "title": "Semi-Rigid-Coax-Cable",
+    "type": "RF Cable",
+    "image": "c2.jpg",
+    "content": "Rigid-form coaxial cable with an outer metal sheath, providing enhanced stability, low interference, and precision in fixed high-frequency applications."
   },
   {
-    "id": "High-Speed-without-Drain",
-    "title": "High Speed without Drain",
-    "type": "High Speed Cable",
+    "id": "Ethernet-CAT6a-Cable",
+    "title": "Ethernet CAT6a Cable",
+    "type": "Data Cable",
+    "image": "eth-const.png",
+    "content": "Advanced Ethernet cable with support for up to 10Gbps speeds, designed for robust network connections, ideal for high-performance network environments."
+  },
+  {
+    "id": "Twinax-Cable",
+    "title": "Twinax Cable",
+    "type": "Data Cable",
     "image": "t2.jpg",
-    "content": "Designed for high-bandwidth applications, our high-speed cables deliver fast and reliable data transfer for industries such as cloud computing, networking, and electronics."
+    "content": "High-speed, low-latency cable suited for short-distance data transmission, used in data centers and network applications requiring rapid, secure signal integrity."
   },
   {
-    "id": "LVDS-Cable",
-    "title": "LVDS Cable",
-    "type": "Other Cable",
-    "image": "o1.jpg",
-    "content": "Need a solution that fits your unique requirements? Our custom-made cables are designed to your exact specifications, ensuring optimal performance."
+    "id": "HDMI-Cable",
+    "title": "HDMI Cable",
+    "type": "Data Cable",
+    "image": "hdmi.png",
+    "content": "Standard HDMI cable supporting high-definition video and audio transfer, enabling seamless multimedia streaming and optimal viewing quality for devices and displays."
+  },
+  {
+    "id": "USB-Cable",
+    "title": "USB Cable",
+    "type": "Data Cable",
+    "image": "usb.png",
+    "content": " Versatile USB cable for fast data transfer and power delivery, compatible with a wide range of devices, from computers to peripherals, for efficient connectivity."
+  },
+  {
+    "id": "IEEE1394b-Cable",
+    "title": "IEEE1394b Cable",
+    "type": "Data Cable",
+    "image": "ieee.png",
+    "content": "High-speed data transmission cable designed for multimedia applications, offering enhanced bandwidth for seamless device communication."
   },
   {
     "id": "Custom-Made-Cable",
     "title": "Custom Made Cable",
-    "type": "Other Cable",
+    "type": "Customized Cable",
     "image": "o2.jpg",
-    "content": "Need a solution that fits your unique requirements? Our custom-made cables are designed to your exact specifications, ensuring optimal performance."
+    "content": "Fully tailored cable solutions built to precise specifications, offering specialized functionality, material choice, and performance characteristics to meet unique industry and application requirements."
   }
 ]
