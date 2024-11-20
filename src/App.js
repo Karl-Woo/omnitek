@@ -25,11 +25,7 @@ function App() {
         <nav className="navbar">
           <div className="navbar-left">
             <a href="/" className="logo">
-              <img
-                className="homeimg"
-                src={`./omnitek/images/home.png`}
-                alt="home"
-              />
+              <img className="homeimg" src={`./images/home.png`} alt="home" />
             </a>
           </div>
 
@@ -60,7 +56,7 @@ function App() {
                   {!showSearchBar ? (
                     <img
                       className="search-icon"
-                      src={`./omnitek/images/search.svg`}
+                      src={`./images/search.svg`}
                       alt="Search"
                       onClick={() => setShowSearchBar(true)}
                     />
@@ -102,11 +98,7 @@ function App() {
       <footer className="footer">
         <div className="footer-content">
           <a href="/" className="logo">
-            <img
-              className="homeimg"
-              src={`./omnitek/images/home.png`}
-              alt="home"
-            />
+            <img className="homeimg" src={`./images/home.png`} alt="home" />
           </a>
           <div className="s-space"></div>
           <p>

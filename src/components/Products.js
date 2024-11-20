@@ -10,7 +10,7 @@ export default function Products() {
 
   useEffect(() => {
     // Load products
-    fetch("./omnitek/products.json")
+    fetch("./products.json")
       .then((response) => response.json())
       .then((data) => setProductitem(data));
 
@@ -72,10 +72,7 @@ export default function Products() {
                   className="products-item"
                   onClick={() => navigate(`${item.id}`)}
                 >
-                  <img
-                    src={`./omnitek/images/${item.image}`}
-                    alt={item.title}
-                  />
+                  <img src={`./images/${item.image}`} alt={item.title} />
                   <div className="l-space"></div>
                   <div>
                     <b className="body">{item.title}</b>
@@ -105,10 +102,7 @@ export default function Products() {
                   className="products-item"
                   onClick={() => navigate(`${item.id}`)}
                 >
-                  <img
-                    src={`./omnitek/images/${item.image}`}
-                    alt={item.title}
-                  />
+                  <img src={`./images/${item.image}`} alt={item.title} />
                   <div className="l-space"></div>
                   <div>
                     <b className="body">{item.title}</b>
@@ -144,10 +138,7 @@ export default function Products() {
                     }
                   }}
                 >
-                  <img
-                    src={`./omnitek/images/${item.image}`}
-                    alt={item.title}
-                  />
+                  <img src={`./images/${item.image}`} alt={item.title} />
                   <div className="l-space"></div>
                   <div>
                     <b className="body">{item.title}</b>

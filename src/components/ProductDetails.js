@@ -9,7 +9,7 @@ export default function ProductDetails() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("../omnitek/productdetails.json")
+    fetch("../productdetails.json")
       .then((response) => response.json())
       .then((data) => setProductDetail(data))
       .catch((error) => console.error("Error fetching data:", error));
@@ -38,10 +38,7 @@ export default function ProductDetails() {
                 <p>{item.description}</p>
               </div>
               <div className="right-image">
-                <img
-                  src={`../omnitek/images/${item.headimage}`}
-                  alt={item.title}
-                />
+                <img src={`../images/${item.headimage}`} alt={item.title} />
               </div>
             </div>
             <div className="l-space"></div>
@@ -52,13 +49,10 @@ export default function ProductDetails() {
                 <h3>Cable Construction</h3>
                 <div className="d-s-img">
                   <img
-                    src={`../omnitek/images/${item.specification}`}
+                    src={`../images/${item.specification}`}
                     alt={item.title}
                   />
-                  <img
-                    src={`../omnitek/images/${item.table}`}
-                    alt={item.title}
-                  />
+                  <img src={`../images/${item.table}`} alt={item.title} />
                 </div>
               </div>
               <div className="s-space"></div>
@@ -95,19 +89,13 @@ export default function ProductDetails() {
               {item.performance && (
                 <div className="d-p">
                   <h3>Performance</h3>
-                  <img
-                    src={`../omnitek/images/${item.performance}`}
-                    alt={item.title}
-                  />
+                  <img src={`../images/${item.performance}`} alt={item.title} />
                 </div>
               )}
               {item.parameter && (
                 <div className="d-p1">
                   <h3>Cable Parameters</h3>
-                  <img
-                    src={`../omnitek/images/${item.parameter}`}
-                    alt={item.title}
-                  />
+                  <img src={`../images/${item.parameter}`} alt={item.title} />
                 </div>
               )}
               <div className="l-space"></div>

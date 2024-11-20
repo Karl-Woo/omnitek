@@ -7,7 +7,7 @@ export default function Product() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("./omnitek/product.json")
+    fetch("./product.json")
       .then((response) => response.json())
       .then((data) => setProductitem(data));
   }, []);
@@ -34,7 +34,7 @@ export default function Product() {
               className="product-item"
               onClick={() => handleItemClick(item.id)}
             >
-              <img src={`./omnitek/images/${item.image}`} alt={item.title} />
+              <img src={`./images/${item.image}`} alt={item.title} />
               <div className="l-space"></div>
               <div>
                 <b className="body">{item.title}</b>

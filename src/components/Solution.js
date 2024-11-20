@@ -7,7 +7,7 @@ export default function Solution() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("./omnitek/application.json")
+    fetch("./application.json")
       .then((response) => response.json())
       .then((data) => setSolutionItems(data));
   }, []);
@@ -26,7 +26,7 @@ export default function Solution() {
         <div className="solution-content">
           {solutionItems.map((item) => (
             <div key={item.id} className="solution-item">
-              <img src={`./omnitek/images/${item.image}`} alt={item.title} />
+              <img src={`./images/${item.image}`} alt={item.title} />
               <div className="l-space"></div>
               <div>
                 <b className="body">{item.title}</b>
