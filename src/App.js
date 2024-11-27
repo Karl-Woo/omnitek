@@ -119,11 +119,15 @@ function App() {
           <p>
             Test and Measurement
             <br />
-            Medical Systems
+            Medical
             <br />
-            Semiconductor
+            Aircraft
             <br />
             Cloud Computing
+            <br />
+            Industry
+            <br />
+            Others
           </p>
         </div>
         <div className="footer-content">
@@ -134,11 +138,9 @@ function App() {
           <p>
             RF Cable
             <br />
-            High Speed Cable
+            Data Cable
             <br />
-            LVDS Cable
-            <br />
-            Custom-Made Cable
+            Customized Cable
           </p>
         </div>
       </footer>
