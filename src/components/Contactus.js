@@ -52,7 +52,7 @@ export default function Contactus() {
     <div>
       <div className="xl-space"></div>
       <div className="solution-text">
-        <h2>Contact us</h2>
+        <h1>Contact us</h1>
         <div className="l-space"></div>
         <form onSubmit={handleSubmit} className="left-right-contact">
           <div className="left-half-contact"></div>
