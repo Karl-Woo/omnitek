@@ -15,31 +15,40 @@ export default function Aboutus() {
             <div className="right-text">
               <div className="l-space"></div>
               <p>
-                Whether you need high-performance cables for a specific project
-                or a custom solution designed to your specifications, our team
-                is here to help you achieve your goalsOmntiek is dedicated to
-                the design, development and manufacturing of cable for microwave
-                coax, micro coax, high data rate, optical and composite
-                constructions.{" "}
+                Welcome to Omnitek Cable Inc , where we are committed to being a
+                leading solutions provider in the high-frequency cable and wire
+                industry. We specialize in offering innovative, high-quality
+                cable and wire solutions for a wide range of applications,
+                including microwave coaxial cables, low-loss coaxial cables, and
+                data cables, fiber and tube designed to perform in extreme
+                environments. Our products serve key sectors such as
+                semiconductors, data centers, aerospace, and medical fields.{" "}
               </p>
               <div className="m-space"></div>
               <p>
-                We provide these standard and custom products to customers who
-                demand high performance for applications that require the use of
-                ePTFE and FEP dielectric materials, operating frequencies up to
-                70GHz, Vp of up to 85%, excellent phase stability and tightly
-                controlled characteristics impedance. Signal integrity and
-                transmission performance define how your product of system
-                quality and we optimize our products to meet your needs.{" "}
+                Our mission is to create long-term value for our customers
+                through continuous innovation and technological excellence,
+                while also driving progress and growth within the industry. We
+                believe that the success of our company is not just about
+                meeting customer needs, but also about making a positive impact
+                on society.{" "}
               </p>
               <div className="m-space"></div>
               <p>
-                In addition to electrical characteristics, we delivery products
-                where you require wide operating temperatures, high density
-                packaging, light weight, mechanical flex life and long distance
-                performance. We serve the demanding industries of: automated
-                test systems, RF systems, medical imaging, aviation systems and
-                custom high speed data transmission.
+                At Omnitek Cable Inc , we combine customer needs with
+                technological advancements, providing customized solutions based
+                on reliability, precision, and sustainability. Our team of
+                experienced engineers and technical experts is dedicated to
+                offering the most advanced technical support and services in the
+                industry.
+              </p>
+              <div className="l-space"></div>
+              <b>Our Vision</b>
+              <div className="s-space"></div>
+              <p>
+                To be the preferred solutions provider in the high-frequency
+                cable and wire industry, creating greater value for both our
+                customers and society.
               </p>
               <div className="l-space"></div>
               <button

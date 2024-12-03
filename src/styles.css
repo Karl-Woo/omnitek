@@ -102,21 +102,25 @@ b {
 .description {
   background-image: url("../public/images/home1.png");
   background-position: bottom left;
-  background-size: 50% auto;
+  background-size: cover; 
   background-repeat: no-repeat;
+  height: 100%; 
+  display: flex; 
+  align-items: center; 
 }
 
 .description-text {
-  position: relative;
   width: 40%;
   text-align: left;
   color: #343a3f;
-  left: 55%;
-  top: 40%;
-  transform: translateY(-40%, -55%);
+  margin-left: 60%; 
+  margin-right: 5%;
+  padding: 16px;
+  display: flex; 
+  flex-direction: column; 
   justify-content: space-between;
-  flex-direction: column;
-  padding: 16px 0;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .left-right-about {
@@ -137,7 +141,7 @@ b {
 
 .right-half {                       /* New class for right half */
   width: 50%;                        /* Right half also takes 50% of the width */
-  background-color: #f4f4f4;         /* Set background color for the right half */
+  background-color: #f8f8f8;         /* Set background color for the right half */
   display: flex;                    /* Optional: to align content inside the right half */
   flex-direction: column;            /* Stack elements vertically */
   padding: 20px;  
@@ -163,7 +167,7 @@ b {
 
 .right-half-contact {                       /* New class for right half */
   width: 50%;                        /* Right half also takes 50% of the width */
-  background-color: #f4f4f4;         /* Set background color for the right half */
+  background-color: #f8f8f8;         /* Set background color for the right half */
   display: flex;                    /* Optional: to align content inside the right half */
   flex-direction: column;            /* Stack elements vertically */
   padding: 20px;                     
