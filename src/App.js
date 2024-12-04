@@ -102,9 +102,9 @@ function App() {
           </a>
           <div className="s-space"></div>
           <p>
-            13565 SW Tualatin Shewood Rd,
+            13565 SW Tualatin-Sherwood Rd., Ste. 100,
             <br />
-            OR 97140
+            Sherwood, OR 97140
             <br />
             Email
             <br />
