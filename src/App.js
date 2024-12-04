@@ -6,7 +6,7 @@ import Products from "./components/Products";
 import ProductDetails from "./components/ProductDetails";
 import Applications from "./components/Applications";
 import Contactus from "./components/Contactus";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React, { useState } from "react";
 
 function App() {
