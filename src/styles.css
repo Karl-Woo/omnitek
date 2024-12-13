@@ -79,7 +79,7 @@ b {
 }
 
 .header {
-  background-image: url("../public/logo.png");
+  background-image: url("../public/logo.jpg");
   background-position: center, bottom left;
   background-size: cover, cover;
   height: 75vh;

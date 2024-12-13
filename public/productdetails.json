@@ -1,7 +1,7 @@
 [
   {
     "id": "Microwave-Coax-Cable",
-    "title": "Microwave Coax Cable",
+    "title": "Microwave Phase Stable Cable 70% VP",
     "type": "RF Cable",
     "subtitle": "Phase Stable, 70 GHz | 70% VP",
     "headimage": "c1.jpg",
@@ -10,12 +10,45 @@
     "performance": "m-perform.png",
     "description": "Omnitek Phase Stable Microwave Coax Cables can up to 70GHz and with 70% velocity of propagation, using high purity FEP as dielectric and the outer conductor is helically wrapped with silver plated flat copper tape. This construction can obviously decrease attenuation at high frequency compared to conventional RG coaxial cables. At the same time, the construction which outer conductor integrate into insulation closely ensuring the stability and consistency of characteristic impedance, and also ensuring the continuity of the impedance during assembly.",
     "feature": [
-      "Low insertion loss",
-      "Mechanical phase stability",
-      "Low signal delay",
-      "Excellent anti-interference capability",
-      "High flexibility and bending resistance",
-      "Impedance stability and consistency"
+      "Motion phase stability less 0.1 dB",
+      "Time delay 1.46 nanoSecond per foot",
+      "Shield Effective is greater than 90 dB",
+      "High Bend Flex Life = greater than 5000 Bend Flex cycles",
+      "Impedance consistency +/- 2 ohms",
+      "Bend Raduis, Static Bend Raduis 2.5 x OD of Cable",
+      "Bend Raduis, Dynamic Bend Raduis is 5x OD of Cable",
+      "Customization is Welcomed"
+    ],
+    "application": [
+      "Automated test systems",
+      "Intra-connection of RF testing equipments",
+      "Environmental test chambers",
+      "Switching matrix",
+      "Antenna arrays",
+      "Telecommunication systems",
+      "Module-to-module interconnection"
+    ],
+    "compliance": ["MIL-C-17"]
+  },
+  {
+  "id": "Microwave-Low-Loss",
+    "title": "Microwave Low Loss 77% VP",
+    "type": "RF Cable",
+    "subtitle": "Phase Stable, 70 GHz | 77% VP",
+    "headimage": "c4.jpg",
+    "specification": "m-const.png",
+    "table": "m-data.png",
+    "performance": "m-perform.png",
+    "description": "Omnitek Phase Stable Microwave Coax Cables can up to 70GHz and with 70% velocity of propagation, using high purity FEP as dielectric and the outer conductor is helically wrapped with silver plated flat copper tape. This construction can obviously decrease attenuation at high frequency compared to conventional RG coaxial cables. At the same time, the construction which outer conductor integrate into insulation closely ensuring the stability and consistency of characteristic impedance, and also ensuring the continuity of the impedance during assembly.",
+    "feature": [
+      "Motion phase stability less 0.1 dB",
+      "Time delay 1.32 nanoSecond per foot",
+      "Shield Effective is greater than 90 dB",
+      "High Bend Flex Life = greater than 5000 Bend Flex cycles",
+      "Impedance consistency +/- 2 ohms",
+      "Bend Raduis, Static Bend Raduis 2.5 x OD of Cable",
+      "Bend Raduis, Dynamic Bend Raduis is 5x OD of Cable",
+      "Customization is Welcomed"
     ],
     "application": [
       "Automated test systems",
@@ -83,7 +116,7 @@
   },
   {
     "id": "Mini-Coax-Cable",
-    "title": "Mini Coax Cable",
+    "title": "Mini Coax cable with 70% VP Single Shiled (Briad and Spiral Shield)",
     "type": "RF Cable",
     "subtitle": "With Braided Shield, 26.5 GHz | 70% Vp ",
     "headimage": "c3.jpg",
@@ -91,13 +124,15 @@
     "table": "mi-data.png",
     "description": "Omnitek designs and manufactures mini coax cables to support challenging installations and meet the electrical performance requirements of digital communication systems. OMNITEK offers a wide range of mini coax cables in standard configurations, as well as customized and optimized to meet customer requirements. Optimized mini coax cables can replace standard RG coaxial cables, while providing lower attenuation, lighter weight, and smaller diameters. The cables are available in sizes ranging from 38AWG to 46AWG, with braided and serve shields. Braid shield cable is commonly used in applications requiring high shielding performance, such as communications, medical, aerospace, etc. due to its good shielding effect and bending adaptability. Serve shield cable is characterized by a smaller finished outside diameter and softer wire.",
     "feature": [
-      "Cost effective",
-      "Compact size",
-      "High signal integrity",
-      "High speed signal transmission",
-      "Easy to integrate",
-      "Easy to repair and replace",
-      "Wide range of applications"
+      "Motion phase stability less 0.3 dB",
+      "Time delay 1.46 nanoSecond per foot",
+      "Shield Effective is greater than 70 dB",
+      "High Bend Flex Life = greater than 10000 Bend Flex cycles",
+      "Impedance consistency +/- 2 ohms",
+      "Bend Raduis, Static Bend Raduis 2.5 x OD of Cable",
+      "Bend Raduis, Dynamic Bend Raduis is 5x OD of Cable",
+      "Available with Multipe Jacket Material, FEP, PVC, and Silicon",
+      "Customization is Welcomed"
     ],
     "application": [
       "Audio transmission",
@@ -121,11 +156,19 @@
     "parameter": "tw-perform.png",
     "description": "For high-performance computing, routers, storage and switches, cables that can efficiently carry large volumes of data are critical. Omnitek High Speed Twin ax Cables have typical characteristics of low attenuation and low time delay, and can maintain highspeed signal transmission up to 40GHz. Omnitek offers optional cables without drain wire and double drain wire.",
     "feature": [
-      "High transmission rate",
-      "High reliability",
-      "Strong anti-interference ability",
-      "Low transmission error",
-      "Long transmission distance"
+      "Insertion loss Suck out free to 40 GHz and 65 GHz See Table below",
+      "Dielectrc is Boned for stabilty",
+      "Time delay 1.32 nanoSecond per foot",
+      "Shield Effective is greater than 90 dB",
+      "High Bend Flex Life = greater than 5000 Bend Flex cycles",
+      "Impedance consistency +/- 5 ohms",
+      "Bend Raduis, Static Bend Raduis 2.5 x OD of Cable",
+      "Bend Raduis, Dynamic Bend Raduis is 5x OD of Cable",
+      "Available with 3 impedance 85 ohm, 92 Ohm, and 100 Ohm",
+      "Every Twinax Impedance is available in 2 styles:",
+      "No Drian: 26 AWG, 28 AWG, 30 AWG and 32 AWG",
+      "With Drain: 27 AWG, 28 AWG, 30 AWG and 32 AWG",
+      "Customization is Welcomed"
     ],
     "application": [
       "Digital Video System",

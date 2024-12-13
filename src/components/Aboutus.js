@@ -14,42 +14,18 @@ export default function Aboutus() {
           <div className="right-half">
             <div className="right-text">
               <div className="l-space"></div>
-              <p>
-                Welcome to Omnitek Cable Inc , where we are committed to being a
-                leading solutions provider in the high-frequency cable and wire
-                industry. We specialize in offering innovative, high-quality
-                cable and wire solutions for a wide range of applications,
-                including microwave coaxial cables, low-loss coaxial cables, and
-                data cables, fiber and tube designed to perform in extreme
-                environments. Our products serve key sectors such as
-                semiconductors, data centers, aerospace, and medical fields.{" "}
-              </p>
+              <h3>
+                OmniTek Cable Inc. was created by several Microwave experts, with over 100 years of
+                combined experience and well over 65 patents in microwave cable and cable assemblies,
+                coaxial connectors, and microwave components.
+                {" "}
+              </h3>
               <div className="m-space"></div>
-              <p>
-                Our mission is to create long-term value for our customers
-                through continuous innovation and technological excellence,
-                while also driving progress and growth within the industry. We
-                believe that the success of our company is not just about
-                meeting customer needs, but also about making a positive impact
-                on society.{" "}
-              </p>
-              <div className="m-space"></div>
-              <p>
-                At Omnitek Cable Inc , we combine customer needs with
-                technological advancements, providing customized solutions based
-                on reliability, precision, and sustainability. Our team of
-                experienced engineers and technical experts is dedicated to
-                offering the most advanced technical support and services in the
-                industry.
-              </p>
-              <div className="l-space"></div>
-              <b>Our Vision</b>
-              <div className="s-space"></div>
-              <p>
-                To be the preferred solutions provider in the high-frequency
-                cable and wire industry, creating greater value for both our
-                customers and society.
-              </p>
+              <h3>
+                Our products serve more applications than before, which can be found in systems ranging
+                from microwave communications, telecom communications to a wide range of ATE + Test &
+                Measurement equipment.{" "}
+              </h3>
               <div className="l-space"></div>
               <button
                 className="primary-button"

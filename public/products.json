@@ -1,10 +1,17 @@
 [
   {
     "id": "Microwave-Coax-Cable",
-    "title": "Microwave Coax Cable",
+    "title": "Microwave Phase Stable Cable 70% VP",
     "type": "RF Cable",
     "image": "c1.jpg",
-    "content": "High-quality coaxial cable engineered for stable and efficient signal transmission in microwave applications, offering reliable performance across a wide frequency range."
+    "content": "High-quality coaxial cable engineered for stable and efficient signal transmission in microwave applications."
+  },
+  {
+    "id": "Microwave-Low-Loss",
+    "title": "Microwave Low Loss 77% VP",
+    "type": "RF Cable",
+    "image": "c4.jpg",
+    "content": "High-quality coaxial cable engineered for stable and efficient signal transmission in microwave applications, specially designed coaxial cable with low attenuation."
   },
   {
     "id": "Microwave-Low-Loss-Coax-Cable",
@@ -15,17 +22,10 @@
   },
   {
     "id": "Mini-Coax-Cable",
-    "title": "Mini Coax Cable",
+    "title": "Mini Coax cable with 70% VP Single Shiled (Briad and Spiral Shield)",
     "type": "RF Cable",
     "image": "c3.jpg",
-    "content": "Compact, space-saving coaxial cable optimized for tight installations, delivering high-frequency performance in restricted spaces without compromising signal quality."
-  },
-  {
-    "id": "Semi-Rigid-Coax-Cable",
-    "title": "Semi-Rigid-Coax-Cable",
-    "type": "RF Cable",
-    "image": "c2.jpg",
-    "content": "Semi-Rigid coax cable with an outer metal sheath, providing enhanced stability, low interference, and precision in fixed high-frequency applications."
+    "content": "Compact, space-saving coaxial cable optimized for tight installations."
   },
   {
     "id": "Ethernet-CAT6a-Cable",
