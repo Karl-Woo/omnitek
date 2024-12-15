@@ -2,49 +2,49 @@
   {
     "id": 1,
     "title": "5G Communication & up to 110ghz microwave millimeter wave cable",
-    "image": "s1.png",
-    "content": "Precision-engineered cables for high-accuracy data transmission and durable performance in rigorous test and measurement environments.",
-    "product-id": ["Microwave-Coax-Cable", "Microwave-Low-Loss-Coax-Cable"],
-    "product": ["Microwave Coax Cable", "Microwave Low Loss Coax Cable"]
+    "image": "s5.png",
+    "content": "Precision-engineered cables for high-accuracy data transmission.",
+    "product-id": [],
+    "product": []
   },
   {
     "id": 2,
     "title": "Test and Measurement",
     "image": "s1.png",
     "content": "Precision-engineered cables for high-accuracy data transmission and durable performance in rigorous test and measurement environments.",
-    "product-id": ["Microwave-Coax-Cable", "Microwave-Low-Loss-Coax-Cable"],
-    "product": ["Microwave Coax Cable", "Microwave Low Loss Coax Cable"]
+    "product-id": [],
+    "product": []
   },
   {
     "id": 3,
    "title": "Industrial Automation Cable Solutions",
-    "image": "s2.png",
+    "image": "s4.png",
     "content": "Robust cables engineered to perform in high-demand semiconductor manufacturing processes with precise control and minimal interference.",
-    "product-id": ["Semi-Rigid-Coax-Cable"],
-    "product": ["Semi-Rigid Coax Cable"]
+    "product-id": [],
+    "product": []
   },
   {
     "id": 4,
     "title": "SemiConducor Validation and Automotive",
     "image": "s3.png",
     "content": "High-speed cables optimized for the massive data transfer needs of cloud computing and data center environments.",
-    "product-id": ["100-OHMS", "HDMI-Cable", "USB-Cable"],
-    "product": ["Twinax Cable", "HDMI Cable", "USB Cable"]
+    "product-id": [],
+    "product": []
   },
   {
     "id": 5,
     "title": "ATE Systems",
     "image": "s2.png",
     "content": "Robust cables engineered to perform in high-demand semiconductor manufacturing processes with precise control and minimal interference.",
-    "product-id": ["Semi-Rigid-Coax-Cable"],
-    "product": ["Semi-Rigid Coax Cable"]
+    "product-id": [],
+    "product": []
   },
   {
     "id": 6,
     "title": "Communication Sybsystme and Cryogentics Components",
     "image": "s6.png",
-    "content": "High-speed cables optimized for the massive data transfer needs of cloud computing and data center environments.",
-    "product-id": ["Customized-Cable"],
-    "product": ["Customized Cable"]
+    "content": "High-speed cables optimized for the massive data transfer.",
+    "product-id": [],
+    "product": []
   }
 ]
