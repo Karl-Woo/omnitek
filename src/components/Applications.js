@@ -29,10 +29,9 @@ export default function Aboutus() {
               <img src={`./images/${item.image}`} alt={item.title} />
               <div className="l-space"></div>
               <div>
-                <b className="body">{item.title}</b>
+                <p className="app-body">{item.title}</p>
                 <div className="m-space"></div>
                 <p className="body">{item.content}</p>
-                <div className="m-space"></div>
                 <div className="button-container">
                   {item["product-id"].map((productId, index) => (
                     <button

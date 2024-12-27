@@ -117,17 +117,17 @@ function App() {
           </a>
           <div className="s-space"></div>
           <p>
+            5G Communication & up to 110ghz microwave millimeter wave cable
+            <br />
             Test and Measurement
             <br />
-            Medical
+            Industrial Automation Cable Solutions
             <br />
-            Aircraft
+            SemiConducor Validation and Automotive
             <br />
-            Cloud Computing
+            ATE Systems
             <br />
-            Industry
-            <br />
-            Others
+            Communication Sybsystme and Cryogentics Components
           </p>
         </div>
         <div className="footer-content">

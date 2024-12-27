@@ -8,16 +8,23 @@
   },
   {
     "id": "Microwave-Low-Loss",
-    "title": "Microwave Low Loss 77% VP",
+    "title": "Microwave Phase Stable Cable 77% VP",
     "type": "RF Cable",
     "image": "c4.jpg",
-    "content": "High-quality coaxial cable engineered for stable and efficient signal transmission in microwave applications, specially designed coaxial cable with low attenuation."
+    "content": "High-quality coaxial cable engineered for stable and efficient signal transmission in microwave applications."
   },
   {
     "id": "Microwave-Low-Loss-Coax-Cable",
-    "title": "Microwave Low Loss Coax Cable",
+    "title": "Microwave Low Loss 70% VP",
     "type": "RF Cable",
     "image": "lo.jpg",
+    "content": "Specially designed coaxial cable with low attenuation, ensuring minimal signal loss in high-frequency microwave systems for superior clarity and signal integrity."
+  },
+  {
+    "id": "Microwave-Low-Loss-Coax-Cable-77",
+    "title": "Microwave Low Loss 77% VP",
+    "type": "RF Cable",
+    "image": "lo2.jpg",
     "content": "Specially designed coaxial cable with low attenuation, ensuring minimal signal loss in high-frequency microwave systems for superior clarity and signal integrity."
   },
   {

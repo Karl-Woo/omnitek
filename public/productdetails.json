@@ -10,6 +10,66 @@
     "performance": "m-perform.png",
     "description": "Omnitek Phase Stable Microwave Coax Cables can up to 70GHz and with 70% velocity of propagation, using high purity FEP as dielectric and the outer conductor is helically wrapped with silver plated flat copper tape. This construction can obviously decrease attenuation at high frequency compared to conventional RG coaxial cables. At the same time, the construction which outer conductor integrate into insulation closely ensuring the stability and consistency of characteristic impedance, and also ensuring the continuity of the impedance during assembly.",
     "feature": [
+      "Low insertion loss",
+      "Mechanical phase stability",
+      "Low signal delay",
+      "Excellent anti-interference capability",
+      "High flexibility and bending resistance",
+      "Impedance stability and consistency"
+    ],
+    "application": [
+      "Automated test systems",
+      "Intra-connection of RF testing equipments",
+      "Environmental test chambers",
+      "Switching matrix",
+      "Antenna arrays",
+      "Telecommunication systems",
+      "Module-to-module interconnection"
+    ],
+    "compliance": ["MIL-C-17"],
+    "pdf": "70.pdf"
+  },
+  {
+  "id": "Microwave-Low-Loss",
+    "title": "Microwave Phase Stable Cable 77% VP",
+    "type": "RF Cable",
+    "subtitle": "Phase Stable, 70 GHz | 77% VP",
+    "headimage": "c4.jpg",
+    "specification": "m-const.png",
+    "table": "m-data.png",
+    "performance": "m-perform.png",
+    "description": "Omnitek Phase Stable Microwave Coax Cables can up to 70GHz and with 70% velocity of propagation, using high purity FEP as dielectric and the outer conductor is helically wrapped with silver plated flat copper tape. This construction can obviously decrease attenuation at high frequency compared to conventional RG coaxial cables. At the same time, the construction which outer conductor integrate into insulation closely ensuring the stability and consistency of characteristic impedance, and also ensuring the continuity of the impedance during assembly.",
+    "feature": [
+      "Low insertion loss",
+      "Mechanical phase stability",
+      "Low signal delay",
+      "Excellent anti-interference capability",
+      "High flexibility and bending resistance",
+      "Impedance stability and consistency"
+    ],
+    "application": [
+      "Automated test systems",
+      "Intra-connection of RF testing equipments",
+      "Environmental test chambers",
+      "Switching matrix",
+      "Antenna arrays",
+      "Telecommunication systems",
+      "Module-to-module interconnection"
+    ],
+    "compliance": ["MIL-C-17"],
+    "pdf": "77.pdf"
+  },
+  {
+    "id": "Microwave-Low-Loss-Coax-Cable",
+    "title": "Microwave Low Loss 70% VP",
+    "type": "RF Cable",
+    "subtitle": "",
+    "headimage": "lo.jpg",
+    "specification": "lo-const.png",
+    "table": "lo-data.png",
+    "performance": "",
+    "description": "Omnitek high performance microwave low loss cables are rugged and flexible, these cables suit microwave interconnects for airborne and ground based military as well as, commercial telecom applications.It performs as low loss test cable for production testing of RF components and equipment with excellent phase stability and durability. Large sizes are ideal for high power industrial applications.",
+    "feature": [
       "Motion phase stability less 0.1 dB",
       "Time delay 1.46 nanoSecond per foot",
       "Shield Effective is greater than 90 dB",
@@ -21,25 +81,22 @@
     ],
     "application": [
       "Automated test systems",
-      "Intra-connection of RF testing equipments",
-      "Environmental test chambers",
-      "Switching matrix",
-      "Antenna arrays",
       "Telecommunication systems",
-      "Module-to-module interconnection"
+      "Module-to-module interconnect",
+      "General purpose"
     ],
-    "compliance": ["MIL-C-17"]
+    "compliance": [""]
   },
   {
-  "id": "Microwave-Low-Loss",
+    "id": "Microwave-Low-Loss-Coax-Cable-77",
     "title": "Microwave Low Loss 77% VP",
     "type": "RF Cable",
-    "subtitle": "Phase Stable, 70 GHz | 77% VP",
-    "headimage": "c4.jpg",
-    "specification": "m-const.png",
-    "table": "m-data.png",
-    "performance": "m-perform.png",
-    "description": "Omnitek Phase Stable Microwave Coax Cables can up to 70GHz and with 70% velocity of propagation, using high purity FEP as dielectric and the outer conductor is helically wrapped with silver plated flat copper tape. This construction can obviously decrease attenuation at high frequency compared to conventional RG coaxial cables. At the same time, the construction which outer conductor integrate into insulation closely ensuring the stability and consistency of characteristic impedance, and also ensuring the continuity of the impedance during assembly.",
+    "subtitle": "",
+    "headimage": "lo2.jpg",
+    "specification": "lo-const.png",
+    "table": "lo-data.png",
+    "performance": "",
+    "description": "Omnitek high performance microwave low loss cables are rugged and flexible, these cables suit microwave interconnects for airborne and ground based military as well as, commercial telecom applications.It performs as low loss test cable for production testing of RF components and equipment with excellent phase stability and durability. Large sizes are ideal for high power industrial applications.",
     "feature": [
       "Motion phase stability less 0.1 dB",
       "Time delay 1.32 nanoSecond per foot",
@@ -49,34 +106,6 @@
       "Bend Raduis, Static Bend Raduis 2.5 x OD of Cable",
       "Bend Raduis, Dynamic Bend Raduis is 5x OD of Cable",
       "Customization is Welcomed"
-    ],
-    "application": [
-      "Automated test systems",
-      "Intra-connection of RF testing equipments",
-      "Environmental test chambers",
-      "Switching matrix",
-      "Antenna arrays",
-      "Telecommunication systems",
-      "Module-to-module interconnection"
-    ],
-    "compliance": ["MIL-C-17"]
-  },
-  {
-    "id": "Microwave-Low-Loss-Coax-Cable",
-    "title": "Microwave-Low-Loss-Coax-Cable",
-    "type": "RF Cable",
-    "subtitle": "",
-    "headimage": "lo.jpg",
-    "specification": "lo-const.png",
-    "table": "lo-data.png",
-    "performance": "",
-    "description": "Omnitek high performance microwave low loss cables are rugged and flexible, these cables suit microwave interconnects for airborne and ground based military as well as, commercial telecom applications.It performs as low loss test cable for production testing of RF components and equipment with excellent phase stability and durability. Large sizes are ideal for high power industrial applications.",
-    "feature": [
-      "Low insertion loss, low VSWR",
-      "Excellent anti-interference capability",
-      "High flexibility and bending resistance",
-      "Passive-intermodulation",
-      "High Power application"
     ],
     "application": [
       "Automated test systems",

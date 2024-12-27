@@ -98,6 +98,13 @@ export default function ProductDetails() {
                   <img src={`../images/${item.parameter}`} alt={item.title} />
                 </div>
               )}
+              {item.pdf && (
+                <div className="download-section">
+                  <a href={`../files/${item.pdf}`} className="download-btn" download>
+                    Download PDF
+                  </a>
+                </div>
+              )}
               <div className="l-space"></div>
             </div>
           </>

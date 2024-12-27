@@ -3,7 +3,7 @@
     "id": 1,
     "title": "5G Communication & up to 110ghz microwave millimeter wave cable",
     "image": "s5.png",
-    "content": "Precision-engineered cables for high-accuracy data transmission.",
+    "content": "",
     "product-id": [],
     "product": []
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "title": "Test and Measurement",
     "image": "s1.png",
-    "content": "Precision-engineered cables for high-accuracy data transmission and durable performance in rigorous test and measurement environments.",
+    "content": "",
     "product-id": [],
     "product": []
   },
@@ -19,7 +19,7 @@
     "id": 3,
    "title": "Industrial Automation Cable Solutions",
     "image": "s4.png",
-    "content": "Robust cables engineered to perform in high-demand semiconductor manufacturing processes with precise control and minimal interference.",
+    "content": "",
     "product-id": [],
     "product": []
   },
@@ -27,7 +27,7 @@
     "id": 4,
     "title": "SemiConducor Validation and Automotive",
     "image": "s3.png",
-    "content": "High-speed cables optimized for the massive data transfer needs of cloud computing and data center environments.",
+    "content": "",
     "product-id": [],
     "product": []
   },
@@ -35,7 +35,7 @@
     "id": 5,
     "title": "ATE Systems",
     "image": "s2.png",
-    "content": "Robust cables engineered to perform in high-demand semiconductor manufacturing processes with precise control and minimal interference.",
+    "content": "",
     "product-id": [],
     "product": []
   },
@@ -43,7 +43,7 @@
     "id": 6,
     "title": "Communication Sybsystme and Cryogentics Components",
     "image": "s6.png",
-    "content": "High-speed cables optimized for the massive data transfer.",
+    "content": "",
     "product-id": [],
     "product": []
   }
