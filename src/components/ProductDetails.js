@@ -75,15 +75,6 @@ export default function ProductDetails() {
                       ))}
                   </ul>
                 </div>
-                <div>
-                  <h3>Standards Compliance</h3>
-                  <ul>
-                    {item.compliance &&
-                      item.compliance.map((compliance, index) => (
-                        <li key={index}>{compliance}</li>
-                      ))}
-                  </ul>
-                </div>
               </div>
               <div className="s-space"></div>
               {item.performance && (
@@ -100,7 +91,11 @@ export default function ProductDetails() {
               )}
               {item.pdf && (
                 <div className="download-section">
-                  <a href={`../files/${item.pdf}`} className="download-btn" download>
+                  <a
+                    href={`../files/${item.pdf}`}
+                    className="download-btn"
+                    download
+                  >
                     Download PDF
                   </a>
                 </div>

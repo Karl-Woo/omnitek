@@ -117,7 +117,7 @@ function App() {
           </a>
           <div className="s-space"></div>
           <p>
-            5G Communication & up to 110ghz microwave millimeter wave cable
+            5G Communication & up to 110GHz microwave millimeter wave cable
             <br />
             Test and Measurement
             <br />
