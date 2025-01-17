@@ -10,7 +10,7 @@ export default function Header() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 4000); // 4 seconds
+    }, 5000); // 5 seconds
     return () => clearInterval(interval);
   }, [images.length]);
 
