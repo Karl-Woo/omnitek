@@ -1126,7 +1126,6 @@ input:checked + .slider {
 }
 
 .d-s-img img {
-  flex: 1;
   height: auto;
   max-width: 50%;
 }
@@ -1214,8 +1213,7 @@ input:checked + .slider {
   .d-s-img img {
     max-width: 90%; 
     height: auto; 
-    display: block; 
-    object-fit: contain;
+    object-fit: cover;
   }
 
   .d-s {
