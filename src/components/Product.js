@@ -19,10 +19,10 @@ export default function Product() {
   return (
     <div className="product-sec">
       <div className="xl-space"></div>
-      <div className="product-text">
-        <h2>Explore Our High-Performance Cables</h2>
+      <div>
+        <h2 className="product-text">Explore Our High-Performance Cables</h2>
         <div className="m-space"></div>
-        <h3>
+        <h3 className="product-text">
           Designed to Meet the Needs of Your Industry, From Standard to
           Custom-Made.
         </h3>

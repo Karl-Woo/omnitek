@@ -35,6 +35,27 @@ b {
   font-size: 18px;
 }
 
+@media (max-width: 720px) {
+  h1 {
+    font-size: 36px; /* Smaller size for mobile */
+    line-height: 44px;
+  }
+
+  h3 {
+    font-size: 16px; /* Adjusted for readability */
+    line-height: 24px;
+  }
+
+  b {
+    font-size: 24px; /* Slightly smaller bold text */
+    line-height: 32px;
+  }
+
+  .app-body {
+    font-size: 16px; /* General body font size adjustment */
+  }
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -82,6 +103,12 @@ b {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+@media (max-width: 720px) {
+  .download-btn {
+    margin-top: 16px; /* More spacing at the top of the button */
+  }
+}
+
 .secondary-button {
   font-family: "DM Sans", sans-serif;
   background-color: #f4f4f4;
@@ -125,6 +152,19 @@ b {
   padding: 16px 0;
 }
 
+@media screen and (max-width: 720px) {
+  .header-text {
+    width: 100%; /* Take full width of the screen */
+    padding: 20px;
+    top: 15%;
+  }
+
+  .header {
+    text-align: center;
+    padding: 10px;
+  }
+}
+
 .description {
   background-image: url("../public/images/home1.png");
   background-position: bottom left;
@@ -147,6 +187,24 @@ b {
   justify-content: space-between;
   margin-top: 100px;
   margin-bottom: 100px;
+}
+
+@media screen and (max-width: 720px) {
+  .description {
+    flex-direction: column;
+    height: auto;
+    background: none; /* Remove the default background */
+  }
+
+  .description::after {
+    content: "";
+  }
+
+  .description-text {
+    width: 90%;
+    text-align: center;
+    margin: 0;
+  }
 }
 
 .left-right-about {
@@ -175,6 +233,39 @@ b {
   margin-right: 2%;
 }
 
+@media (max-width: 720px) {
+  .left-right-about {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    border-radius: 48px;
+    margin: 16px auto;
+    align-items: center; /* Center the entire section */
+  }
+
+  .left-half {
+    width: 100%;
+    height: 200px; /* Make sure image height fits mobile screen */
+    background-image: url("../public/images/aboutus.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 48px 48px 0px 0px;
+  }
+
+  .right-half {
+    width: 100%;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    border-radius:  0px 0px 48px 48px;
+    margin: 0px auto;
+  }
+
+  .right-text {
+    text-align: left; /* Ensure text is centered */
+  }
+}
+
 .left-right-contact {
   width: 100%;                        /* Full width for the entire div */
   display: flex;                      /* Use flexbox for layout */
@@ -182,20 +273,20 @@ b {
   margin: 16px;
 }
 
-.left-half-contact {                        /* New class for left half */
+.left-half-contact {                        
   background-image: url("../public/images/contactus.png");
-  background-position: center;        /* Center the image */
-  background-size: cover;             /* Cover the area while maintaining aspect ratio */
-  background-repeat: no-repeat;       /* No repetition of the image */
-  width: 50%;                         /* Left half takes 50% of the width */
-  border-radius: 48px 0 0 48px;      /* Rounded corners only on the left side */
+  background-position: center;        
+  background-size: cover;             
+  background-repeat: no-repeat;       
+  width: 50%;                         
+  border-radius: 48px 0 0 48px;      
 }
 
-.right-half-contact {                       /* New class for right half */
-  width: 50%;                        /* Right half also takes 50% of the width */
-  background-color: #f8f8f8;         /* Set background color for the right half */
-  display: flex;                    /* Optional: to align content inside the right half */
-  flex-direction: column;            /* Stack elements vertically */
+.right-half-contact {                       
+  width: 50%;                        
+  background-color: #f8f8f8;         
+  display: flex;                   
+  flex-direction: column;            
   padding: 20px;                     
   border-radius: 0 48px 48px 0; 
   margin-right: 2%;
@@ -217,6 +308,40 @@ input {
   box-sizing: border-box;
 }
 
+@media (max-width: 720px) {
+  .left-right-contact {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    border-radius: 48px;
+    margin: 16px auto;
+    align-items: center; /* Center the entire section */
+  }
+
+  .left-half-contact {
+    width: 100%;
+    height: 200px; /* Make sure image height fits mobile screen */
+    background-image: url("../public/images/aboutus.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 48px 48px 0px 0px;
+  }
+
+  .right-half-contact {
+    width: 100%;
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    border-radius:  0px 0px 48px 48px;
+    margin: 0px auto;
+  }
+
+  .right-text {
+    text-align: left; /* Ensure text is centered */
+  }
+}
+
+
 .cta {
   background-color: #343a3f;
   border-radius: 48px 48px 0px 0px;
@@ -232,6 +357,13 @@ input {
   justify-content: space-between;
   flex-direction: column;
   padding: 16px 0;
+}
+
+@media screen and (max-width: 720px) {
+  .cta-text {
+    width: 80%; 
+    left: 10%;
+  }
 }
 
 .product-sec {
@@ -275,6 +407,8 @@ input {
   text-align: left;
   cursor: pointer;
 }
+
+
 
 .products-content b {
   display: inline-block;
@@ -330,6 +464,8 @@ input {
   border-radius: 24px;
 }
 
+
+
 .body {
   text-align: left;
   padding: 0px 16px;
@@ -369,13 +505,67 @@ input {
   padding: 16px 0;
 }
 
+@media screen and (max-width: 720px) {
+  .product-item {
+    width: 90%; /* Take up the full width of the container */
+    margin: 0 auto; /* Center the item */
+  }
+
+  .product-content {
+    justify-content: center; 
+  }
+
+  .product-text {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .products-content {
+    display: flex;
+    flex-direction: column; /* Stack items vertically on mobile */
+    justify-content: left;
+    align-items: center;
+    width: 100%; /* Full width on mobile */
+  }
+  
+  .products-content .dis {
+    width: 100%;
+    text-align: left;
+  }
+  
+  .products-item {
+    display: flex;
+    flex-flow: column;
+    color: #343a3f;
+    background-color: #dde1e6;
+    border-radius: 48px;
+    width: 100%; /* Full width on mobile */
+    padding: 24px 24px;
+    text-align: left;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  .products-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .products-item b {
+    display: block;
+  }
+  
+  .products-item p {
+    margin-top: 0px;
+  }
+}
+
 .solution-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   gap: 24px 24px;
-
   margin-left: auto;
 }
 
@@ -403,6 +593,30 @@ input {
   transform: translateY(-40%, 0%);
   justify-content: space-between;
   flex-direction: column;
+}
+
+.solution-text1 {
+  position: relative;
+  text-align: left;
+  color: #343a3f;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 720px) {
+  .solution-item {
+    width: 90%; 
+    margin: 0 auto; 
+  }
+
+  .solution-content {
+    gap: 16px;
+  }
+
+  .solution-text {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
 
 .button-container {
@@ -467,6 +681,12 @@ input {
   margin-left: 16px;
 }
 
+@media (max-width: 720px) {
+.search-input {
+  width: 90%;
+}
+}
+
 .search-input1 {
   font-size: 14px;
   width: 150px;
@@ -499,6 +719,19 @@ hr {
   text-align: left;
   color: #343a3f;
   line-height: 1.5;
+}
+
+@media screen and (max-width: 720px) {
+  .footer {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .footer-content {
+    width: 90%; /* Make each content block take up most of the screen width */
+    text-align: center; /* Center align the text for mobile readability */
+    padding: 16px 0; /* Adjust padding for a cleaner look */
+  }
 }
 
 .title {
@@ -558,6 +791,85 @@ ul {
   align-items: center;
 }
 
+/* Mobile Menu */
+.hamburger-menu {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.hamburger-menu .bar {
+  height: 3px;
+  background-color: #343a3f;
+  transition: 0.3s ease-in-out;
+}
+
+.hamburger-menu .bar.open:nth-child(1) {
+  transform: translateY(8.2px) rotate(45deg);
+}
+
+.hamburger-menu .bar.open:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-menu .bar.open:nth-child(3) {
+  transform: translateY(-8.2px) rotate(-45deg);
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 72px; /* Position below the navbar */
+  right: -100%; /* Initially hidden */
+  width: 100%;
+  height: calc(100% - 72px); /* Cover remaining screen minus the navbar height */
+  background-color: #ffffff;
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.2);
+  transition: right 0.3s ease-in-out;
+  z-index: 1; /* Ensure it stays above other elements */
+}
+
+.mobile-menu.active {
+  right: 0; /* Slide in when active */
+}
+
+.mobile-menu ul {
+  list-style-type: none;
+  padding: 24px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.mobile-menu ul li {
+  text-align: left;
+}
+
+.mobile-menu ul li a {
+  text-decoration: none;
+  color: #343a3f;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.mobile-menu ul li a:hover {
+  color: #cb1d45;
+}
+
+/* Media Query */
+@media (max-width: 720px) {
+  .hamburger-menu {
+    display: flex;
+  }
+
+  .navbar-right {
+    display: none;
+  }
+}
+
 .textlink {
   color: #141414;
   text-decoration: none;
@@ -605,6 +917,20 @@ ul {
 .d-textlink:hover .left-icon {
   transition: transform 250ms;
   transform: translateX(-10px);
+}
+
+@media (max-width: 720px) {
+  .d-textlink {
+    width: auto; 
+    justify-content: left; 
+    margin-left: 20px; 
+    margin-bottom: 4px;
+  }
+
+  .left-icon {
+    height: 24px;
+    width: 12px;
+  }
 }
 
 .footerlink {
@@ -715,6 +1041,27 @@ input:checked + .slider {
   width: 100%;
   max-width: 800px;
   border-radius: 24px;
+}
+
+@media (max-width: 720px) {
+  .d-header {
+    flex-direction: column; 
+  }
+
+  .d-header .right-image {
+    order: -1; 
+    max-width: 90%; 
+    margin-bottom: 20px;
+  }
+
+  .d-header .right-image img {
+    max-width: 100%; 
+  }
+
+  .d-header .left-text {
+    max-width: 90%; 
+    gap: 16px; 
+  }
 }
 
 .d-section {
@@ -840,4 +1187,90 @@ input:checked + .slider {
 .d h2 {
   text-align: left;
   margin-left: 5%;
+}
+
+@media (max-width: 720px) {
+  .d-section {
+    flex-direction: column; /* Stack elements vertically */
+    gap: 16px; /* Spacing between stacked elements */
+  }
+
+  .d-section > div {
+    flex: 1 1 100%; /* Take 100% width for each element */
+    max-width: 100%; /* Ensure it doesn’t shrink or overflow */
+  }
+
+  .d-section .solution-text1 {
+    width: 90%; /* Text takes 90% of the container width on mobile */
+    max-width: 100%; /* Ensures text doesn’t exceed container width */
+    margin: 0 auto; /* Center align text */
+  }
+
+  .d-s-img {
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  .d-s-img img {
+    max-width: 90%; 
+    height: auto; 
+    display: block; 
+    object-fit: contain;
+  }
+
+  .d-s {
+    align-items: left;
+    text-align: left;
+  }
+
+  .d h2 {
+    text-align: left;
+    margin-bottom: 16px;
+  }
+
+  .d-s h3 {
+    padding: 10px 5%; /* Adjust padding for mobile screens */
+  }
+
+  .d-section h3 {
+    padding: 10px 5%; /* Adjust padding for mobile screens */
+  }
+
+  .d-p h3 {
+    padding: 10px 5%; /* Adjust padding for mobile screens */
+  }
+
+  .d-p img {
+    width: 90%;
+    height: auto;
+    object-fit: contain;
+    margin-left: 5%;
+  }
+
+  .d-p1 h3 {
+    padding: 10px 5%; /* Adjust padding for mobile screens */
+  }
+  .d-p1 img {
+    width: 90%;
+    height: auto;
+    object-fit: contain;
+    margin-left: 5%;
+  }
+}
+
+/* Mobile View (Breakpoint: 720px) */
+@media (max-width: 720px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .navbar-right {
+    display: none;
+    transform: translateY(-100%);
+  }
+
+  .navbar-right.show {
+    display: flex;
+    transform: translateY(0);
+  }
 }

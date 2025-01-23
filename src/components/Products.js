@@ -44,8 +44,8 @@ export default function Products() {
   return (
     <div className="products">
       <div className="xl-space"></div>
-      <div className="solution-text">
-        <h1>Products</h1>
+      <div>
+        <h1 className="solution-text">Products</h1>
         <div className="l-space"></div>
         <input
           className="search-input"
@@ -60,8 +60,8 @@ export default function Products() {
         {filteredCoax.length > 0 && (
           <div className="products-content" id="1">
             <div className="l-space"></div>
-            <h2 className="dis">RF Cable</h2>
-            <p className="dis">
+            <h2 className="dis solution-text">RF Cable</h2>
+            <p className="dis solution-text">
               High-frequency cables designed for reliable signal transmission in
               demanding RF and microwave applications.
             </p>
@@ -90,8 +90,8 @@ export default function Products() {
         )}
         {filteredHigh.length > 0 && (
           <div className="products-content" id="2">
-            <h2 className="dis">Data Cable</h2>
-            <p className="dis">
+            <h2 className="dis solution-text">Data Cable</h2>
+            <p className="dis solution-text">
               High-performance cables for fast, secure data transmission across
               various digital and multimedia applications.
             </p>
@@ -120,8 +120,8 @@ export default function Products() {
         )}
         {filteredOther.length > 0 && (
           <div className="products-content" id="3">
-            <h2 className="dis">Customized Cables</h2>
-            <p className="dis">
+            <h2 className="dis solution-text">Customized Cables</h2>
+            <p className="dis solution-text">
               Specialized cables engineered to match unique specifications for
               specific industry applications.
             </p>

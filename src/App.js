@@ -6,12 +6,29 @@ import Products from "./components/Products";
 import ProductDetails from "./components/ProductDetails";
 import Applications from "./components/Applications";
 import Contactus from "./components/Contactus";
+import MobileMenu from "./components/MobileMenu"; // Import MobileMenu
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 function App() {
   const [showSearchBar, setShowSearchBar] = useState(false);
   const [searchTerm, setSearchTerm] = useState("");
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 720);
+    };
+
+    // Set initial state
+    handleResize();
+
+    // Add event listener for resize
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   const handleSearchSubmit = (e) => {
     e.preventDefault();
@@ -29,56 +46,63 @@ function App() {
             </a>
           </div>
 
-          <div className="navbar-right">
-            <ul>
-              <li>
-                <a className="textlink" href="/">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a className="textlink" href="/aboutus">
-                  About us
-                </a>
-              </li>
-              <li>
-                <a className="textlink" href="/products">
-                  Products
-                </a>
-              </li>
-              <li>
-                <a className="textlink" href="/applications">
-                  Applications
-                </a>
-              </li>
-              <li>
-                <div className="search-container">
-                  {!showSearchBar ? (
-                    <img
-                      className="search-icon"
-                      src={`./images/search.svg`}
-                      alt="Search"
-                      onClick={() => setShowSearchBar(true)}
-                    />
-                  ) : (
-                    <form onSubmit={handleSearchSubmit} className="search-form">
-                      <input
-                        type="text"
-                        placeholder="Search product..."
-                        value={searchTerm}
-                        onChange={(e) => setSearchTerm(e.target.value)}
-                        className="search-input1"
-                        autoFocus
+          {isMobile ? (
+            <MobileMenu />
+          ) : (
+            <div className="navbar-right">
+              <ul>
+                <li>
+                  <a className="textlink" href="/">
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a className="textlink" href="/aboutus">
+                    About us
+                  </a>
+                </li>
+                <li>
+                  <a className="textlink" href="/products">
+                    Products
+                  </a>
+                </li>
+                <li>
+                  <a className="textlink" href="/applications">
+                    Applications
+                  </a>
+                </li>
+                <li>
+                  <div className="search-container">
+                    {!showSearchBar ? (
+                      <img
+                        className="search-icon"
+                        src={`./images/search.svg`}
+                        alt="Search"
+                        onClick={() => setShowSearchBar(true)}
                       />
-                    </form>
-                  )}
-                </div>
-              </li>
-            </ul>
-            <a href="/contactus">
-              <button className="primary-button">Contact Us</button>
-            </a>
-          </div>
+                    ) : (
+                      <form
+                        onSubmit={handleSearchSubmit}
+                        className="search-form"
+                      >
+                        <input
+                          type="text"
+                          placeholder="Search product..."
+                          value={searchTerm}
+                          onChange={(e) => setSearchTerm(e.target.value)}
+                          className="search-input1"
+                          autoFocus
+                        />
+                      </form>
+                    )}
+                  </div>
+                </li>
+              </ul>
+              <a href="/contactus">
+                <button className="primary-button">Contact Us</button>
+              </a>
+            </div>
+          )}
         </nav>
         <div className="container">
           <Routes>

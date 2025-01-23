@@ -26,16 +26,16 @@ export default function ProductDetails() {
         <i className="left-icon"></i>
         <p>Back</p>
       </div>
-      <div className="solution-text">
+      <div>
         {item ? (
           <>
             <div className="d-header">
               <div className="left-text">
-                <h1>{item.title}</h1>
+                <h1 className="solution-text1">{item.title}</h1>
                 <div className="s-space"></div>
-                <b>{item.subtitle}</b>
+                <b className="solution-text1">{item.subtitle}</b>
                 <div className="m-space"></div>
-                <p>{item.description}</p>
+                <p className="solution-text1">{item.description}</p>
               </div>
               <div className="right-image">
                 <img src={`../images/${item.headimage}`} alt={item.title} />
@@ -44,7 +44,7 @@ export default function ProductDetails() {
             <div className="l-space"></div>
             <div className="d">
               <div className="l-space"></div>
-              <h2>Product Highlight</h2>
+              <h2 className="solution-text1">Product Highlight</h2>
               <div className="d-s">
                 <h3>Cable Construction</h3>
                 <div className="d-s-img">
@@ -59,7 +59,7 @@ export default function ProductDetails() {
               <div className="d-section">
                 <div>
                   <h3>Features and Benefits</h3>
-                  <ul>
+                  <ul className="solution-text1">
                     {item.feature &&
                       item.feature.map((feature, index) => (
                         <li key={index}>{feature}</li>
@@ -68,7 +68,7 @@ export default function ProductDetails() {
                 </div>
                 <div>
                   <h3>Typical Applications</h3>
-                  <ul>
+                  <ul className="solution-text1">
                     {item.application &&
                       item.application.map((application, index) => (
                         <li key={index}>{application}</li>

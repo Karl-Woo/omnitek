@@ -15,10 +15,10 @@ export default function Solution() {
   return (
     <div>
       <div className="xl-space"></div>
-      <div className="solution-text">
-        <h2>Solutions built for you</h2>
+      <div>
+        <h2 className="solution-text">Solutions built for you</h2>
         <div className="m-space"></div>
-        <h3>
+        <h3 className="solution-text">
           Tailored cable solutions for precision, performance, and innovation
           across industries.
         </h3>

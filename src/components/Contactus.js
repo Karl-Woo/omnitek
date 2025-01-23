@@ -10,6 +10,8 @@ export default function Contactus() {
     message: "",
   });
 
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
@@ -20,15 +22,23 @@ export default function Contactus() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setIsSubmitting(true);
 
-    fetch("https://your-backend-endpoint.com/contact", {
+    const payload = {
+      access_key: "da3b6ddb-589e-47a2-a9ff-e6abea1cfac9", // Replace with your Web3Forms access key
+      subject: "Omnitek New Contact Form Submission",
+      ...formData,
+    };
+
+    fetch("https://api.web3forms.com/submit", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(formData),
+      body: JSON.stringify(payload),
     })
       .then((response) => {
+        setIsSubmitting(false);
         if (response.ok) {
           alert("Message sent successfully!");
           setFormData({
@@ -43,6 +53,7 @@ export default function Contactus() {
         }
       })
       .catch((error) => {
+        setIsSubmitting(false);
         console.error("Error:", error);
         alert("An error occurred. Please try again later.");
       });
@@ -109,8 +120,12 @@ export default function Contactus() {
                 />
               </label>
               <div className="l-space"></div>
-              <button type="submit" className="primary-button">
-                Send Message
+              <button
+                type="submit"
+                className="primary-button"
+                disabled={isSubmitting}
+              >
+                {isSubmitting ? "Sending..." : "Send Message"}
               </button>
               <div className="l-space"></div>
             </div>
