@@ -130,9 +130,9 @@ function App() {
             <br />
             Sherwood, OR 97140
             <br />
-            Email
-            <br />
-            Number
+            <a href="mailto:sales@omnitekcable.com" className="email-link">
+              sales@omnitekcable.com
+            </a>
           </p>
         </div>
         <div className="footer-content">

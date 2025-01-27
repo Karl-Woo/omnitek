@@ -1272,3 +1272,12 @@ input:checked + .slider {
     transform: translateY(0);
   }
 }
+
+.email-link {
+  color: #141414;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline; /* Adds underline on hover for accessibility */
+}

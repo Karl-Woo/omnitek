@@ -25,7 +25,7 @@ export default function Contactus() {
     setIsSubmitting(true);
 
     const payload = {
-      access_key: "da3b6ddb-589e-47a2-a9ff-e6abea1cfac9", // Replace with your Web3Forms access key
+      access_key: "b1f75cb3-8fa1-42ad-9000-5ca494a09da0", // Replace with your Web3Forms access key
       subject: "Omnitek New Contact Form Submission",
       ...formData,
     };

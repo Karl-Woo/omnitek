@@ -30,7 +30,7 @@
     "pdf": "70.pdf"
   },
   {
-  "id": "Microwave-Low-Loss",
+    "id": "Microwave-Low-Loss",
     "title": "Microwave Phase Stable Cable 77% VP",
     "type": "RF Cable",
     "subtitle": "Phase Stable, 70 GHz | 77% VP",
@@ -172,7 +172,8 @@
       "Aerospace field",
       "Automatic control system"
     ],
-    "compliance": ["MIL-C-17"]
+    "compliance": ["MIL-C-17"],
+    "pdf": "mini.pdf"
   },
   {
     "id": "Twinax-Cable",
@@ -211,7 +212,8 @@
       "ANSI/NEMA WC 27500 Performance Requirements: Environmental Testing, Jacket and Marking",
       "FAR Part 25, Appendix F, Part I and MIL-W-22759: Flame Resistance",
       "FAR Part 25, Appendix F, Part V: Smoke Density"
-    ]
+    ],
+    "pdf": "twinax.pdf"
   },
   {
     "id": "Ethernet-CAT6a-Cable",
