@@ -21,39 +21,11 @@
     "content": "Compact, space-saving coaxial cable optimized for tight installations."
   },
   {
-    "id": "Ethernet-CAT6a-Cable",
-    "title": "Ethernet CAT6a Cable",
-    "type": "Data Cable",
-    "image": "eth-const.png",
-    "content": "Advanced Ethernet cable with support for up to 10Gbps speeds, designed for robust network connections, ideal for high-performance network environments."
-  },
-  {
     "id": "Twinax-Cable",
     "title": "Twinax Cable",
     "type": "Data Cable",
     "image": "t2.jpg",
     "content": "High-speed, low-latency cable suited for short-distance data transmission, used in data centers and network applications requiring rapid, secure signal integrity."
-  },
-  {
-    "id": "HDMI-Cable",
-    "title": "HDMI Cable",
-    "type": "Data Cable",
-    "image": "hdmi.jpg",
-    "content": "Standard HDMI cable supporting high-definition video and audio transfer, enabling seamless multimedia streaming and optimal viewing quality for devices and displays."
-  },
-  {
-    "id": "USB-Cable",
-    "title": "USB Cable",
-    "type": "Data Cable",
-    "image": "usb.png",
-    "content": " Versatile USB cable for fast data transfer and power delivery, compatible with a wide range of devices, from computers to peripherals, for efficient connectivity."
-  },
-  {
-    "id": "IEEE1394b-Cable",
-    "title": "IEEE1394b Cable",
-    "type": "Data Cable",
-    "image": "ieee.png",
-    "content": "High-speed data transmission cable designed for multimedia applications, offering enhanced bandwidth for seamless device communication."
   },
   {
     "id": "Custom-Made-Cable",
