@@ -121,7 +121,7 @@ function App() {
 
       <footer className="footer">
         <div className="footer-content">
-          <a href="/" className="logo">
+          <a href="/" className="logo1">
             <img className="homeimg" src={`./images/home.png`} alt="home" />
           </a>
           <div className="s-space"></div>

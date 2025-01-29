@@ -741,10 +741,19 @@ hr {
 
 .logo {
   width: 100%;
-  max-width: 50px;
-  margin: 0 auto;
+  max-width: 720px;
+  margin: 0 0;
   display: block;
   transform: scale(0.5); /* Shrinks the logo to 50% of its size */
+  transform-origin: left; /* Ensures it scales from the center */
+}
+
+.logo1 {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  display: block;
+  transform: scale(0.7); /* Shrinks the logo to 50% of its size */
   transform-origin: center; /* Ensures it scales from the center */
 }
 
