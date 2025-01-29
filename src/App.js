@@ -42,7 +42,7 @@ function App() {
         <nav className="navbar">
           <div className="navbar-left">
             <a href="/" className="logo">
-              <img className="homeimg" src={`./images/home.png`} alt="home" />
+              <img className="homeimg" src={`./images/home.svg`} alt="home" />
             </a>
           </div>
 
@@ -122,7 +122,7 @@ function App() {
       <footer className="footer">
         <div className="footer-content">
           <a href="/" className="logo1">
-            <img className="homeimg" src={`./images/home.png`} alt="home" />
+            <img className="homeimg" src={`./images/home.svg`} alt="home" />
           </a>
           <div className="s-space"></div>
           <p>

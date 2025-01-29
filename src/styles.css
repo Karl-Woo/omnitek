@@ -744,8 +744,6 @@ hr {
   max-width: 720px;
   margin: 0 0;
   display: block;
-  transform: scale(0.5); /* Shrinks the logo to 50% of its size */
-  transform-origin: left; /* Ensures it scales from the center */
 }
 
 .logo1 {
@@ -753,8 +751,8 @@ hr {
   max-width: 720px;
   margin: 0 auto;
   display: block;
-  transform: scale(0.7); /* Shrinks the logo to 50% of its size */
-  transform-origin: center; /* Ensures it scales from the center */
+  transform: scale(1);
+  transform-origin: center;
 }
 
 .app-subtitle {
