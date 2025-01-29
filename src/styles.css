@@ -741,9 +741,11 @@ hr {
 
 .logo {
   width: 100%;
-  max-width: 920px;
+  max-width: 50px;
   margin: 0 auto;
   display: block;
+  transform: scale(0.5); /* Shrinks the logo to 50% of its size */
+  transform-origin: center; /* Ensures it scales from the center */
 }
 
 .app-subtitle {
